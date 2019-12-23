@@ -1,0 +1,590 @@
+{
+  "questionSet": {
+    "question": [
+      {
+        "format": [
+          "1"
+        ],
+        "ezid": [
+          "13570164659530818"
+        ],
+        "version": [
+          "1577130962126"
+        ],
+        "title": [
+          "TPC 02-01 (Algo) [LO 2-1]"
+        ],
+        "type": [
+          "WK"
+        ],
+        "categories": [
+          {
+            "internal_category": [
+              {
+                "catid": [
+                  "1136040857231"
+                ],
+                "title": [
+                  "Learning Objective: 02-01 Explain the concept of sufficiency of a good tax."
+                ]
+              },
+              {
+                "catid": [
+                  "13570164135571765"
+                ],
+                "title": [
+                  "AACSB: Analytical Thinking"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040723510"
+                ],
+                "title": [
+                  "AICPA: FN Decision Making"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040747176"
+                ],
+                "title": [
+                  "Blooms: Analyze"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040820109"
+                ],
+                "title": [
+                  "Est Time: 20 min."
+                ]
+              },
+              {
+                "catid": [
+                  "1136040707526"
+                ],
+                "title": [
+                  "AICPA: BB Critical Thinking"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164214530995"
+                ],
+                "title": [
+                  "Topic: Static versus Dynamic Forecasting"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040825672"
+                ],
+                "title": [
+                  "Difficulty: 3 Hard"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164054528189"
+                ],
+                "title": [
+                  "Accessibility: Keyboard Navigation"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164573458385"
+                ],
+                "title": [
+                  "Type: Algorithimic"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040756075"
+                ],
+                "title": [
+                  "Gradable: automatic"
+                ]
+              }
+            ]
+          }
+        ],
+        "randomVariables": [
+          {
+            "pooledRandom": [
+              {
+                "name": [
+                  "a"
+                ],
+                "arrayed": [
+                  "true"
+                ],
+                "rows": [
+                  {
+                    "row": [
+                      "6.5,530,5.3,1,2,290,500000,5.3,5.3",
+                      "6.5,560,5.6,1,2,305,500000,5.6,5.6",
+                      "6.5,590,5.9,1,2,320,500000,5.9,5.9",
+                      "6.5,620,6.2,1,2,335,500000,6.2,6.2",
+                      "6.5,650,6.5,1,2,350,500000,6.5,6.5",
+                      "6.5,680,6.8,1,2,365,500000,6.8,6.8",
+                      "6.5,710,7.1,1,2,380,500000,7.1,7.1",
+                      "6.5,740,7.4,1,2,395,500000,7.4,7.4",
+                      "6.5,770,7.7,1,2,410,500000,7.7,7.7",
+                      "6.5,800,8,1,2,425,500000,8,8",
+                      "6.5,830,8.3,1,2,440,500000,8.3,8.3",
+                      "6.5,860,8.6,1,2,455,500000,8.6,8.6",
+                      "6.5,890,8.9,1,2,470,500000,8.9,8.9",
+                      "6.5,920,9.2,1,2,485,500000,9.2,9.2",
+                      "6.5,950,9.5,1,2,500,500000,9.5,9.5",
+                      "6.5,980,9.8,1,2,515,500000,9.8,9.8",
+                      "6.5,1010,10.1,1,2,530,500000,10.1,10.1",
+                      "6.5,1040,10.4,1,2,545,500000,10.4,10.4",
+                      "6.5,1070,10.7,1,2,560,500000,10.7,10.7",
+                      "6.5,1100,11,1,2,575,500000,11,11",
+                      "6.5,1130,11.3,1,2,590,500000,11.3,11.3",
+                      "6.5,1160,11.6,1,2,605,500000,11.6,11.6",
+                      "6.5,1190,11.9,1,2,620,500000,11.9,11.9",
+                      "6.5,1220,12.2,1,2,635,500000,12.2,12.2",
+                      "6.5,1250,12.5,1,2,650,500000,12.5,12.5"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questionProperties": [
+          {
+            "property": [
+              {
+                "$": {
+                  "name": "pageTag",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "customType",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "completeIncompleteGrading",
+                  "type": "string",
+                  "value": "false"
+                }
+              },
+              {
+                "$": {
+                  "name": "instructor_info",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "forceManualScoring",
+                  "type": "string",
+                  "value": "automatic"
+                }
+              },
+              {
+                "$": {
+                  "name": "problemSolution",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "audioPlayerPosition",
+                  "type": "string",
+                  "value": "above"
+                }
+              },
+              {
+                "$": {
+                  "name": "attached_media",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "useCommonFeedback",
+                  "type": "string",
+                  "value": "true"
+                }
+              },
+              {
+                "$": {
+                  "name": "aggregatedGrading",
+                  "type": "string",
+                  "value": "false"
+                }
+              }
+            ]
+          }
+        ],
+        "worksheet": [
+          {
+            "stem": [
+              "<p>Jurisdiction B&#8217;s tax system consists of a {{[a(1)]:#,###.0}} percent general sales tax on retail goods and selected services. Over the past decade, the average annual volume of sales subject to this tax was ${{[a(2)]:#,###}} million. The jurisdiction needs to increase its tax revenues by approximately ${{[a(3)]:#,###.0}} million each year to finance its spending programs. The taxing authorities are considering two alternatives: a {{[a(4)]:#,###}} percent increase in the sales tax rate or a new {{[a(5)]:#,###}} percent tax on the net income of corporations doing business in the jurisdiction. Based on recent economic data, the annual net income subject to the new tax would be ${{[a(6)]:#,###}} million. However, the jurisdiction would have to create a new agency responsible for enforcing and collecting the income tax. The estimated annual cost of the agency is ${{[a(7)]:#,###}}. Jurisdiction B borders four other taxing jurisdictions, all of which have a general sales tax and two of which have a corporate income tax.<br>\n&nbsp;</p>\n\n<p><b>1. </b>Based on a static forecast, how much incremental revenue would Jurisdiction B raise under each alternative? <span style=\" color: #b11111;\"><b>(Enter your answers in millions rounded to 1 decimal place.)</b></span><br>\n<br>\n__new__</p>"
+            ],
+            "commonFeedback": [
+              "<ol style=\" margin-top: 0px; font-weight: bold; padding-left: 20px;\" start=\"1\">\n\t<li style=\" text-align: left;\"><span style=\" font-weight: normal;\">Based on a static forecast, a {{[a(4)]:#,###}} percent increase in the sales tax rate would increase Jurisdiction B&#8217;s annual revenue by ${{[a(3)]:#,###.0}} million. A new {{[a(5)]:#,###}} percent corporate income tax would also increase revenue by ${{[a(8)]:#,###.0}} million ({{[a(5)]:#,###}} percent of a ${{[a(6)]:#,###}} million tax base less ${{[a(7)]:#,###}} cost of the new agency).</span></li>\n</ol>"
+            ],
+            "answers": [
+              {
+                "externalAnswer": [
+                  {
+                    "name": [
+                      "new"
+                    ],
+                    "weight": [
+                      "2"
+                    ],
+                    "answerProperties": [
+                      {
+                        "property": [
+                          {
+                            "$": {
+                              "name": "identifier",
+                              "type": "string",
+                              "value": "common/accountingtool/1.0/atinit.html"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "customType",
+                              "type": "string",
+                              "value": "Worksheet"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "completeIncompleteGrading",
+                              "type": "string",
+                              "value": "false"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "width",
+                              "type": "string",
+                              "value": "300"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "palette",
+                              "type": "string",
+                              "value": ""
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "state",
+                              "type": "string",
+                              "value": "\"}:\"n\"ioptriscdeb_ta,\"{}\":62\"_],[0\":67\"_l,ul:n1\"_5,\"llnu\":26\"_},:{2\"_3,\"seal:ft\"behalpwAhosS\"ie,lsfa\":42\"_1,:-0\"_5,\"-1\":24\"_1,:-1\"_3,\":05\"\"_0,\":_4,\"seal:f8\"_4,\"llnu\":37\"_],4}46\":77\"_8,11\":34\"_[{\":23\"_e,ru:t5\"_4,\"1\"leit%20Tew\"N\":mena,\"}]seal:f7\"_4,\":24\"_5,\"[]\":33\"_},6\"\"6\":c2,\"1\"\"7\":c1,\"5\"28:\"0\"\"c:{9\"_1,\"\"}23:\"2\",\"3\"\"2\":\"1\",33:\"0\"{\"\":59\"_],}]\"}x%3B0p:%20ntdeint-ex\"t\":_8,\"t\"efeLylst:\"7\"\"_},N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",onliil\"m\":75\"_:{0\"_3{\"\":_2{\"\":20\"_,{}}r\"beumeNylste%20nspoes\"r\":_7,\"\"}htig\"r\":68\"_e,ru:t3\"_4,\"N\"IOUTOL\"S\":76\"_:{5\"_5,\"}}%24\":\"1\"_8,\":23\"_5,\":11\"_2,\"uetr\":63\"_:{5\"_5,\"Y\"NCREUR\"C\":73\"_:{9\"_2,\"}}\"\"\":79\"_\",)~(9~a:\"5\"_7{\"\":56\"_},\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}:\"7\"\"_},N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",ax%20tmecoine%20atorrpcot%20enrcpe2%20w%20neA%20:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\",[}]\"}x%3B0p:%20ntdeint-ex\"t\":_8,\"t\"efeLylst:\"7\"\"_},N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",onliil\"m\":75\"_:{0\"_3{\"\":_2{\"\":20\"_,{}}r\"beumeNylste%20nspoes\"r\":_7,\"\"}htig\"r\":68\"_e,ru:t3\"_4,\"N\"IOUTOL\"S\":76\"_:{5\"_5,\"}}%24\":\"1\"_8,\":23\"_5,\":11\"_2,\"uetr\":63\"_:{5\"_5,\"Y\"NCREUR\"C\":73\"_:{9\"_2,\"}}\"\"\":79\"_\",)~(9~a:\"5\"_7{\"\":56\"_},\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}:\"7\"\"_},N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",ax%20tesal%20she%20tine%20asrenc%20intceer%20p%201\"A\":75\"_:{0\"_3{\"\":_2{\"\":20\"_[{],}}\"\"\":_7,\"%3B\"px23:%20htighe%3B%20neno:%20ayplis%20d)%3B29%2023,17,%2021(1gb%20rr:locod-unrokgac\"b\":_8,\"\"}_1\"0\":78\"_\",e5ad79\"%23\":_9,\"N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}x%3B3p%202t:ghei%20h)%3B29%2023,17,%2021(1gb%20rr:locod-unrokgac%20bx%3B0p:%20ntdeint-ex\"t\":_8,\"d\"oleBylstr%20teeneCylst:\"7\"\"_2,\":16\"_},0\"0_:\"8\"_7,\"uetr\":10\"_\",e5ad79\"%23\":_9,\"r\"teen\"c\":68\"_\",ONTIESQU:\"6\"_7{\"\":55\"_},\"}:\"9\"_7,\"e\"nuveRel%20taenemcrIn:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}:\"7\"\"_\",x%3B3p%202t:ghei%20h)%3B29%2023,17,%2021(1gb%20rr:locod-unrokgac\"b\":_8,\"\"}e5ad79\"%23\":_9,\"N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"[[\":13\"_e,lsfa\":41\"_},n\"owpDro\"d\":27\"_1,:-5\"_2,\"{}\":75\"_e,lsfa\":82\"_:{8\"_2,\"\"\"\":22\"_e,lsfa\":35\"_e,ru:t6\"_3,\"{}\":55\"_\",leab%20TedtltiUn:\"9\"_6,\":37\"_1,\":38\"_5{\":[5\"_6{\""
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "height",
+                              "type": "string",
+                              "value": "100"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": [
+          "1"
+        ],
+        "ezid": [
+          "13570164659530819"
+        ],
+        "version": [
+          "1577130962126"
+        ],
+        "title": [
+          "TPC 02-01 (Static) [LO 2-1]"
+        ],
+        "type": [
+          "WK"
+        ],
+        "categories": [
+          {
+            "internal_category": [
+              {
+                "catid": [
+                  "1136040857231"
+                ],
+                "title": [
+                  "Learning Objective: 02-01 Explain the concept of sufficiency of a good tax."
+                ]
+              },
+              {
+                "catid": [
+                  "13570164135571765"
+                ],
+                "title": [
+                  "AACSB: Analytical Thinking"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040723510"
+                ],
+                "title": [
+                  "AICPA: FN Decision Making"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040747176"
+                ],
+                "title": [
+                  "Blooms: Analyze"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040820109"
+                ],
+                "title": [
+                  "Est Time: 20 min."
+                ]
+              },
+              {
+                "catid": [
+                  "1136040707526"
+                ],
+                "title": [
+                  "AICPA: BB Critical Thinking"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164214530995"
+                ],
+                "title": [
+                  "Topic: Static versus Dynamic Forecasting"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040825672"
+                ],
+                "title": [
+                  "Difficulty: 3 Hard"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164054528189"
+                ],
+                "title": [
+                  "Accessibility: Keyboard Navigation"
+                ]
+              },
+              {
+                "catid": [
+                  "13570164528935313"
+                ],
+                "title": [
+                  "Type: Static"
+                ]
+              },
+              {
+                "catid": [
+                  "1136040756075"
+                ],
+                "title": [
+                  "Gradable: automatic"
+                ]
+              }
+            ]
+          }
+        ],
+        "questionProperties": [
+          {
+            "property": [
+              {
+                "$": {
+                  "name": "pageTag",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "customType",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "completeIncompleteGrading",
+                  "type": "string",
+                  "value": "false"
+                }
+              },
+              {
+                "$": {
+                  "name": "hm_points",
+                  "type": "BigDecimal",
+                  "value": "10.00"
+                }
+              },
+              {
+                "$": {
+                  "name": "instructor_info",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "forceManualScoring",
+                  "type": "string",
+                  "value": "automatic"
+                }
+              },
+              {
+                "$": {
+                  "name": "problemSolution",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "audioPlayerPosition",
+                  "type": "string",
+                  "value": "above"
+                }
+              },
+              {
+                "$": {
+                  "name": "attached_media",
+                  "type": "string",
+                  "value": ""
+                }
+              },
+              {
+                "$": {
+                  "name": "useCommonFeedback",
+                  "type": "string",
+                  "value": "true"
+                }
+              },
+              {
+                "$": {
+                  "name": "aggregatedGrading",
+                  "type": "string",
+                  "value": "false"
+                }
+              }
+            ]
+          }
+        ],
+        "worksheet": [
+          {
+            "stem": [
+              "<p>Jurisdiction B&#8217;s tax system consists of a 6.5 percent general sales tax on retail goods and selected services. Over the past decade, the average annual volume of sales subject to this tax was $500 million. The jurisdiction needs to increase its tax revenues by approximately $5 million each year to finance its spending programs. The taxing authorities are considering two alternatives: a 1 percent increase in the sales tax rate or a new 2 percent tax on the net income of corporations doing business in the jurisdiction. Based on recent economic data, the annual net income subject to the new tax would be $275 million. However, the jurisdiction would have to create a new agency responsible for enforcing and collecting the income tax. The estimated annual cost of the agency is $500,000. Jurisdiction B borders four other taxing jurisdictions, all of which have a general sales tax and two of which have a corporate income tax.<br>\n&nbsp;</p>\n\n<p><b>1. </b>Based on a static forecast, how much incremental revenue would Jurisdiction B raise under each alternative?<span style=\" color: #b11111;\"><b> (Enter your answers in millions.)</b></span><br>\n<br>\n__new__</p>"
+            ],
+            "commonFeedback": [
+              "<ol start=\"1\" style=\" margin-top: 0px; font-weight: bold; padding-left: 20px;\">\n\t<li style=\" text-align: left;\"><span style=\" font-weight: normal;\">Based on a static forecast, a 1 percent increase in the sales tax rate would increase Jurisdiction B&#8217;s annual revenue by $5 million. A new 2 percent corporate income tax would also increase revenue by $5 million (2 percent of a $275 million tax base less $500,000 cost of the new agency).</span></li>\n</ol>"
+            ],
+            "answers": [
+              {
+                "externalAnswer": [
+                  {
+                    "name": [
+                      "new"
+                    ],
+                    "weight": [
+                      "2"
+                    ],
+                    "answerProperties": [
+                      {
+                        "property": [
+                          {
+                            "$": {
+                              "name": "identifier",
+                              "type": "string",
+                              "value": "common/accountingtool/1.0/atinit.html"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "customType",
+                              "type": "string",
+                              "value": "Worksheet"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "completeIncompleteGrading",
+                              "type": "string",
+                              "value": "false"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "width",
+                              "type": "string",
+                              "value": "300"
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "palette",
+                              "type": "string",
+                              "value": ""
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "state",
+                              "type": "string",
+                              "value": "}\"\"\":ontiipcres_dab\"t},:{2\"_6,\"0]:[7\"_6,\"llnu\":51\"_l,ul:n6\"_2,\"{}\":32\"_e,lsfa\":etabphAlowShis,\"seal:f2\"_4,\"-1\":50\"_1,:-4\"_2,\"-1\":31\"_0,\":_5,\":04\"\"_e,lsfa\":48\"_l,ul:n7\"_3,\"}]53:47\"_7,\"15:14\"_3{\":[3\"_2,\"uetr\":45\"_\",e1tlTiw%20Ne:\"e\"am\"n],e}lsfa\":47\"_2,\":54\"_],:[3\"_3,\"\"}62:\"2\"\"c\",69:\"1\"\"c\",80\"2\":c0{\"\":19\"_},3\"\"2\":\"2\",23:\"1\",\"3\"\"3\":\"0:{9\"_5,\"]]}}%3B\"px%200t:ennd-ixtte:\"8\"\"_\",ftLelety\"s\":_7,\"\"}ONTIESQU:\"6\"_7{\"\":55\"_},\"}:\"9\"_7,\"n\"iollmi:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}ermbNulety%20sseonspre:\"7\"\"_},uetr\":43\"_\",ONTILUSO:\"6\"_7{\"\":55\"_},\"}\"%24\":81\"_2,\":53\"_e,ru:t3\"_6{\"\":55\"_\",CYENRRCU:\"3\"_7{\"\":29\"_},\"}:\"9\"_7,\"5\":\"5\"_7{\"\":56\"_},\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},}}N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",ax%20tmecoine%20atorrpcot%20enrcpe2%20w%20neA%20:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\",[}]\"}x%3B0p:%20ntdeint-ex\"t\":_8,\"t\"efeLylst:\"7\"\"_},N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",onliil\"m\":75\"_:{0\"_3{\"\":_2{\"\":20\"_,{}}r\"beumeNylste%20nspoes\"r\":_7,\"e}ru:t3\"_4,\"N\"IOUTOL\"S\":76\"_:{5\"_5,\"}}%24\":\"1\"_8,\":23\"_5,\"uetr\":63\"_:{5\"_5,\"Y\"NCREUR\"C\":73\"_:{9\"_2,\"}}\"\"\":79\"_\",\"5\":75\"_:{6\"_5,\"\"}:\"9\"_7,\"\"\"\":75\"_:{0\"_3{\"\":_2{\"\":20\"_,{}}\"}ONTIESQU:\"6\"_7{\"\":55\"_},\"}:\"9\"_7,\"x\"tas%20lesae%20thn%20%20iseeacrint%20enrcpe1%20A%20:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\",[}]\"}e%3Bon%20ny:laspdi%3B%20e5ad79%20%23r:locod-unrokgac\"b\":_8,\"\"}_1\"0\":78\"_\",e5ad79\"%23\":_9,\"N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"},\"}5%3Bde9a%237:%20orol-cndougrckba%3B%20px%200t:ennd-ixtte:\"8\"\"_\",ldBolety%20serntCelety\"s\":_7,\"2\":\"6\"_1,\"\"}_0\"0\":78\"_e,ru:t0\"_1,\"5\"de9a%237:\"9\"\"_\",erntce:\"8\"_6,\"N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",ueenev%20Ralntmerenc\"I\":75\"_:{0\"_3{\"\":_2{\"\":20\"_,{}}\"\"\":_7,\"%3B\"e5ad79%20%23r:locod-unrokgac\"b\":_8,\"\"}e5ad79\"%23\":_9,\"N\"IOSTUE\"Q\":76\"_:{5\"_5,\"}}\"\"\":79\"_\",:\"5\"_7{\"\":30\"_:{2\"\"_:{0\"_2{\"[[\":13\"_e,lsfa\":41\"_},n\"owpDro\"d\":27\"_1,:-5\"_2,\"{}\":75\"_e,lsfa\":82\"_:{8\"_2,\"\"\"\":22\"_e,lsfa\":35\"_e,ru:t6\"_3,\"{}\":55\"_\",leab%20TedtltiUn:\"9\"_6,\":37\"_1,\":38\"_5{\":[5\"_6{\""
+                            }
+                          },
+                          {
+                            "$": {
+                              "name": "height",
+                              "type": "string",
+                              "value": "100"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
