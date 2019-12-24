@@ -13,7 +13,7 @@ var style = workbook.createStyle({
 });
 
 
-var xml = `/Volumes/Akshay/MyScripts/JS/node/xml/T_13570164659530815.xml`
+var xml = __dirname + `/T_13570164659530813.xml`;
 var parser = new xml2js.Parser();
 fs.readFile(xml, function(err, data) {
     parser.parseString(data, function (err, result) {
