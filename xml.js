@@ -94,11 +94,11 @@ fs.readFile(xml, function(err, data) {
           worksheet.cell(i,17).string(tags.topic).style(style);
           // worksheet.cell(i,18).string(tags.topic).style(style);
           worksheet.cell(i,19).string(tags.AACSB).style(style);
-          worksheet.cell(i,19).string(tags.BB).style(style);
-          worksheet.cell(i,20).string(tags.FN).style(style);
-          worksheet.cell(i,21).string(tags.blooms).style(style);
-          worksheet.cell(i,22).string(tags.difficulty).style(style);
-          worksheet.cell(i,23).string(tags.time).style(style);
+          worksheet.cell(i,20).string(tags.BB).style(style);
+          worksheet.cell(i,21).string(tags.FN).style(style);
+          worksheet.cell(i,22).string(tags.blooms).style(style);
+          worksheet.cell(i,23).string(tags.difficulty).style(style);
+          worksheet.cell(i,24).string(tags.time).style(style);
           i++;
         });
         // for(var q in que) {
