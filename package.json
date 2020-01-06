@@ -13,10 +13,12 @@
     "npm": "5.8.0"
   },
   "dependencies": {
+    "adm-zip": "^0.4.13",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.19.0",
     "excel4node": "^1.7.2",
+    "exceljs": "^3.5.0",
     "express": "^4.17.1",
     "fast-xml-parser": "^3.15.1",
     "formidable": "^1.2.1",
