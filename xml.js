@@ -24,7 +24,9 @@ function MyFunction(theFile) {
       parser.parseString(data, function (err, result) {
           // console.dir(result);
           let data = JSON.stringify(result, null, 2);
+          // console.log(data);
           fs.writeFileSync('xml.json', data);
+          fs.writeFileSync('xml.txt', result);
           var i = 2, j = 1;
           var quest = result.questionSet;
           var que = quest.question
@@ -103,7 +105,7 @@ function MyFunction(theFile) {
                 }
               });
             });
-            console.log(tags);
+            // console.log(tags);
             worksheet.cell(i,1).string(tags.title).style(style);
             worksheet.cell(i,2).string(tags.LO).style(style);
             worksheet.cell(i,3).string(tags.topic).style(style);
