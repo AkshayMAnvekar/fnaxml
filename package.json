@@ -25,6 +25,7 @@
     "multer": "^1.4.2",
     "pretty-data": "^0.40.0",
     "serialize-javascript": ">=2.1.1",
+    "string-similarity": "^4.0.1",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-node-externals": "^1.7.2",
     "xlsx": "^0.15.3",

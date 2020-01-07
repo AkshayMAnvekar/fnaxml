@@ -3,19 +3,26 @@ var fs = require('fs'), xml2js = require('xml2js');
 var excel = require('excel4node');
 var AdmZip = require('adm-zip'), ExcelJS = require('exceljs');
 var XLSX = require('xlsx');
+var stringSimilarity = require('string-similarity');
+var MyCompare = require('./compare.js');
 
-var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new(); 
+
+var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
 
 XLSX.writeFile(workBookFinal, 'XML.xlsx');
 var i = 2, j = 1;
 
+async function sleep(millis) {
+  return new Promise(resolve => setTimeout(resolve, millis));
+}
+
 async function MyFunction(theZipFile) {
-  
+
   var zip = new AdmZip(theZipFile);
   var zipEntries = zip.getEntries(); // an array of ZipEntry records
-
-  // iniWB = IniWorkBook(); // Initialise Workbook
-  zipEntries.forEach(async function(zipEntry) {
+  // zipEntries.forEach(async function(zipEntry) {
+  for await (const zipEntry of zipEntries) {
+    await sleep(1000);
     console.log(zipEntry.entryName); // outputs zip entries information
     if (zipEntry.entryName.split('.').pop() == "xlsx") {
       var pmWorkbook = XLSX.readFile(zipEntry.entryName);
@@ -31,12 +38,12 @@ async function MyFunction(theZipFile) {
     }
     if (zipEntry.entryName.split('.').pop() == "xml") {
       await MyXmlFunction(zipEntry.entryName, function (a) {
-          console.log(a);
-        })
+        console.log(a);
+      })
     }
 
-  });
-
+  }
+  await MyCompare('XML.xlsx');
   return './XML.xlsx';
 }
 
@@ -44,7 +51,7 @@ async function MyXmlFunction(theFile, callback) {
 
   var workBookTemp = XLSX.readFile('XML.xlsx');
   var ws = workBookTemp.Sheets['Extracted Data'];
-  console.log(ws);
+  // console.log(XLSX.utils.sheet_to_json(ws));
 
   console.log(theFile);
   var parser = new xml2js.Parser();
@@ -138,7 +145,8 @@ async function MyXmlFunction(theFile, callback) {
         XLSX.utils.sheet_add_aoa(ws, rowVal, { origin: `A${i}` });
         i++;
       });
-      await XLSX.writeFile(workBookTemp, `XML.xlsx`);
+      // console.log(XLSX.utils.sheet_to_json(ws));
+      await XLSX.writeFile(workBookTemp, 'XML.xlsx');
       console.log('Done');
     });
   });
