@@ -1,60 +1,55 @@
 // const fs = require('fs');
-var fs = require('fs'),
-  xml2js = require('xml2js');
+var fs = require('fs'), xml2js = require('xml2js');
 var excel = require('excel4node');
-var AdmZip = require('adm-zip'),
-  ExcelJS = require('exceljs');;
+var AdmZip = require('adm-zip'), ExcelJS = require('exceljs');
+var XLSX = require('xlsx');
 
-function MyFunction(theZipFile) {
+var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new(); 
+
+XLSX.writeFile(workBookFinal, 'XML.xlsx');
+var i = 2, j = 1;
+
+async function MyFunction(theZipFile) {
+  
   var zip = new AdmZip(theZipFile);
-    var zipEntries = zip.getEntries(); // an array of ZipEntry records
+  var zipEntries = zip.getEntries(); // an array of ZipEntry records
 
-    zipEntries.forEach(function(zipEntry) {
-      console.log(zipEntry.entryName); // outputs zip entries information
-      if (zipEntry.entryName == "PM.xlsx") {
-        var workbook = new ExcelJS.Workbook();
-        workbook.xlsx.load(zipEntry.getData())
-        .then(function() {
-          var worksheet = workbook.getWorksheet(1);
-          console.log(worksheet);
-        });
+  // iniWB = IniWorkBook(); // Initialise Workbook
+  zipEntries.forEach(async function(zipEntry) {
+    console.log(zipEntry.entryName); // outputs zip entries information
+    if (zipEntry.entryName.split('.').pop() == "xlsx") {
+      var pmWorkbook = XLSX.readFile(zipEntry.entryName);
+      var first_sheet_name = pmWorkbook.SheetNames[0];
+      var pmWorksheet = pmWorkbook.Sheets[first_sheet_name];
+      var workBook1 = XLSX.readFile('XML.xlsx');
+      XLSX.utils.book_append_sheet(workBook1, pmWorksheet, first_sheet_name);
+      let pmData = JSON.stringify(XLSX.utils.sheet_to_json(pmWorksheet), null, 2);
+      // console.log(data);
+      fs.writeFileSync('PM.json', pmData);
+      await XLSX.writeFile(workBook1, 'XML.xlsx');
+      // console.log(XLSX.utils.sheet_to_json(pmWorksheet));
+    }
+    if (zipEntry.entryName.split('.').pop() == "xml") {
+      await MyXmlFunction(zipEntry.entryName, function (a) {
+          console.log(a);
+        })
+    }
 
-        // var workbook1 = excel.Workbook(zipEntry);
-        // console.log(zipEntry.getData().toString('utf8'));
-      }
-    });
-  // MyXmlFunction(theZipFile);
-  return './Excel.xlsx';
-}
-
-function MyXmlFunction(theFile) {
-  var workbook = new excel.Workbook();
-  var worksheet = workbook.addWorksheet('Sheet 1');
-  var style = workbook.createStyle({
-    font: {
-      // color: '#FF0800',
-      size: 12
-    },
-    numberFormat: '$#,##0.00; ($#,##0.00); -'
   });
 
-  worksheet.cell(1, 1).string('Q').style(style);
-  worksheet.cell(1, 2).string('LO').style(style);
-  worksheet.cell(1, 3).string('Topic').style(style);
-  // worksheet.cell(1,18).string(tags.topic).style(style);
-  worksheet.cell(1, 4).string('AACSB').style(style);
-  worksheet.cell(1, 5).string('AICPA BB').style(style);
-  worksheet.cell(1, 6).string('AICPA FN').style(style);
-  worksheet.cell(1, 7).string('Blooms').style(style);
-  worksheet.cell(1, 8).string('Difficulty').style(style);
-  worksheet.cell(1, 9).string('Est Time').style(style);
-  var i = 2, j = 1;
-  // var xml = theFile;
+  return './XML.xlsx';
+}
+
+async function MyXmlFunction(theFile, callback) {
+
+  var workBookTemp = XLSX.readFile('XML.xlsx');
+  var ws = workBookTemp.Sheets['Extracted Data'];
+  console.log(ws);
+
   console.log(theFile);
-  //__dirname + `/T_13570164659530813.xml`;
   var parser = new xml2js.Parser();
-  fs.readFile(theFile, function(err, data) {
-    parser.parseString(data, function (err, result) {
+  fs.readFile(theFile, async function(err, data) {
+    parser.parseString(data, async function (err, result) {
       // console.dir(result);
       let data = JSON.stringify(result, null, 2);
       // console.log(data);
@@ -62,7 +57,7 @@ function MyXmlFunction(theFile) {
       fs.writeFileSync('xml.txt', result);
       var quest = result.questionSet;
       var que = quest.question
-      que.forEach(function(value) {
+      que.forEach(async function(value) {
         var tags = {};
         tags['LO'] = ``;
         tags['topic'] = ``;
@@ -73,7 +68,7 @@ function MyXmlFunction(theFile) {
         tags['difficulty'] = ``;
         tags['time'] = ``;
         tags['title'] = value.title.toString();
-        console.log("value.title");
+        // console.log("value.title");
         value.categories.forEach(function(value1) {
           value1.internal_category.forEach(function(value2) {
             var tag = value2.title.toString();
@@ -127,22 +122,27 @@ function MyXmlFunction(theFile) {
             }
           });
         });
-        // console.log(tags);
-        worksheet.cell(i,1).string(tags.title).style(style);
-        worksheet.cell(i,2).string(tags.LO).style(style);
-        worksheet.cell(i,3).string(tags.topic).style(style);
-        worksheet.cell(i,4).string(tags.AACSB).style(style);
-        worksheet.cell(i,5).string(tags.BB).style(style);
-        worksheet.cell(i,6).string(tags.FN).style(style);
-        worksheet.cell(i,7).string(tags.blooms).style(style);
-        worksheet.cell(i,8).string(tags.difficulty).style(style);
-        worksheet.cell(i,9).string(tags.time).style(style);
+
+        var rowVal = [
+        [
+          `${tags.title}`,
+          `${tags.LO}`,
+          `${tags.topic}`,
+          `${tags.AACSB}`,
+          `${tags.BB}`,
+          `${tags.FN}`,
+          `${tags.blooms}`,
+          `${tags.difficulty}`,
+          `${tags.time}`
+        ] ];
+        XLSX.utils.sheet_add_aoa(ws, rowVal, { origin: `A${i}` });
         i++;
       });
-      workbook.write('Excel.xlsx');
+      await XLSX.writeFile(workBookTemp, `XML.xlsx`);
       console.log('Done');
     });
   });
+  callback('./Excel.xlsx')
 }
 
 module.exports = MyFunction;

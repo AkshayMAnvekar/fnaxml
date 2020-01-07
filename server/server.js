@@ -4,6 +4,9 @@ import bodyParser from 'body-parser'
 import formidable from 'formidable';
 import XLSX from 'xlsx';
 import multer from 'multer';
+const pd = require('pretty-data').pd;
+// import pd from 'pretty-data';
+var MyFunction = require('../xml.js');
 
 // var storage = multer.diskStorage({
 //   destination: function (req, file, callback) {
@@ -15,11 +18,6 @@ import multer from 'multer';
 // });
 var storage = multer.memoryStorage()
 var upload = multer({ storage: storage }).single('userPhoto');
-
-// import pd from 'pretty-data';
-const pd = require('pretty-data').pd;
-
-var MyFunction = require('../xml.js');
 
 const app = express();
 
@@ -41,11 +39,13 @@ app.get('/getfile1', (req, res)=>{
       res.send('My page 2');
 })
 app.post('/getfile', (req, res)=>{
-  upload(req, res, function (err) {
+  upload(req, res, async function (err) {
     if (err) {
       return res.end("Error uploading file.");
     }
-    var workbook = MyFunction(`${req.file.originalname}`);
+    console.log("Call");
+    var workbook = await MyFunction(`${req.file.originalname}`);
+    console.log("Result", workbook);
     return res.download(
       workbook
      )
