@@ -8,7 +8,7 @@ var MyCompare = require('./compare.js');
 
 
 var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
-
+// fs.unlinkSync('./XML.xlsx');
 XLSX.writeFile(workBookFinal, 'XML.xlsx');
 var i = 2, j = 1;
 
@@ -17,7 +17,9 @@ async function sleep(millis) {
 }
 
 async function MyFunction(theZipFile) {
-
+  // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
+  // // fs.unlinkSync('./XML.xlsx');
+  // XLSX.writeFile(workBookFinal, 'XML.xlsx');
   var zip = new AdmZip(theZipFile);
   var zipEntries = zip.getEntries(); // an array of ZipEntry records
   // zipEntries.forEach(async function(zipEntry) {
@@ -43,6 +45,7 @@ async function MyFunction(theZipFile) {
     }
 
   }
+  await sleep(1000);
   await MyCompare('XML.xlsx');
   return './XML.xlsx';
 }
