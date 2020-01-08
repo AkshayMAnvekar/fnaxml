@@ -29,14 +29,14 @@ const CURRENT_WORKING_DIR = process.cwd();
 app.use(express.static(path.join(CURRENT_WORKING_DIR, 'public')));
 
 app.get('/test', (req, res)=>{
-      res.send('My page');
+  res.send('My page');
 })
 app.get('/test1', (req, res)=>{
-      res.send('My page 2');
+  res.send('My page 2');
 })
 app.get('/getfile1', (req, res)=>{
-      console.log(req.query)
-      res.send('My page 2');
+  console.log(req.query)
+  res.send('My page 2');
 })
 app.post('/getfile', (req, res)=>{
   upload(req, res, async function (err) {
@@ -48,7 +48,7 @@ app.post('/getfile', (req, res)=>{
     console.log("Result", workbook);
     return res.download(
       workbook
-     )
+    )
     res.end("File is uploaded");
   });
 })

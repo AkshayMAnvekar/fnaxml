@@ -7,9 +7,9 @@ var stringSimilarity = require('string-similarity');
 var MyCompare = require('./compare.js');
 
 
-var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
-// fs.unlinkSync('./XML.xlsx');
-XLSX.writeFile(workBookFinal, 'XML.xlsx');
+// var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
+// // fs.unlinkSync('./XML.xlsx');
+// XLSX.writeFile(workBookFinal, 'XML.xlsx');
 var i = 2, j = 1;
 
 async function sleep(millis) {
@@ -17,11 +17,8 @@ async function sleep(millis) {
 }
 
 async function MyFunction(theZipFile) {
-  // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
-  // // fs.unlinkSync('./XML.xlsx');
-  // XLSX.writeFile(workBookFinal, 'XML.xlsx');
   var zip = new AdmZip(theZipFile);
-  var zipEntries = zip.getEntries(); // an array of ZipEntry records
+  var zipEntries = zip.getEntries();// an array of ZipEntry records
   // zipEntries.forEach(async function(zipEntry) {
   for await (const zipEntry of zipEntries) {
     await sleep(1000);
@@ -30,7 +27,7 @@ async function MyFunction(theZipFile) {
       var pmWorkbook = XLSX.readFile(zipEntry.entryName);
       var first_sheet_name = pmWorkbook.SheetNames[0];
       var pmWorksheet = pmWorkbook.Sheets[first_sheet_name];
-      var workBook1 = XLSX.readFile('XML.xlsx');
+      var workBook1 = XLSX.readFile('ExcelTemplate.xlsx');
       XLSX.utils.book_append_sheet(workBook1, pmWorksheet, first_sheet_name);
       let pmData = JSON.stringify(XLSX.utils.sheet_to_json(pmWorksheet), null, 2);
       // console.log(data);
