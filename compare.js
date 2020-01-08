@@ -40,8 +40,13 @@ function LastWord(words) {
 function hasNumbers(t) {
   var regex = /\d/g;
   return regex.test(t);
-}    
-
+}
+function MatchArray (a, b) {
+  b = b.replace(/  +/g,',');
+  b = b.replace('\r\n',',');
+  x = a.split(/[,;]/g);
+  y = b.split(/[,;]/g);
+}
 async function LoCheck (extLO, pmLO) {
   var a = extLO.match(/(\d{1,2}-\d{1,3})/g);
   var b = pmLO.match(/(\d{1,2}-\d{1,3})/g);
