@@ -4,7 +4,7 @@ import bodyParser from 'body-parser'
 import formidable from 'formidable';
 import XLSX from 'xlsx';
 import multer from 'multer';
-const pd = require('pretty-data').pd;
+// const pd = require('pretty-data').pd;
 // import pd from 'pretty-data';
 // var MyFunction = require('./xml.js');
 import MyFunction from './xml.js';

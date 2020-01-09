@@ -114,11 +114,11 @@ function MatchArray (a, b) {
   b = b.replace('\r\n',',');
   a = a.trim();
   b = b.trim();
-  x = a.split(/[,;]/g).sort();
-  y = b.split(/[,;]/g).sort();
+  var x = a.split(/[,;]/g).sort();
+  var y = b.split(/[,;]/g).sort();
   x = x.filter(Boolean);
   y = y.filter(Boolean);
-  for (i = 0; i < x.length; i++) {
+  for (var i = 0; i < x.length; i++) {
     x[i] = x[i].trim();
   }
   for (i = 0; i < x.length; i++) {
