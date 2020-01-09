@@ -1,11 +1,14 @@
 // const fs = require('fs');
-var fs = require('fs'), xml2js = require('xml2js');
-var excel = require('excel4node');
-var AdmZip = require('adm-zip'), ExcelJS = require('exceljs');
-var XLSX = require('xlsx');
-var stringSimilarity = require('string-similarity');
+import fs from 'fs';
+import xml2js from 'xml2js';
+import excel from 'excel4node';
+import AdmZip from 'adm-zip';
+import ExcelJS from 'exceljs';
+import XLSX from 'xlsx';
+import stringSimilarity from 'string-similarity';
+// import {MyCompare} from './compare.js';
 var MyCompare = require('./compare.js');
-
+// import XLSX from 'xlsx';
 
 // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
 // // fs.unlinkSync('./Extracted.xlsx');

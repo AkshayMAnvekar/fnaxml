@@ -1,7 +1,7 @@
-var XLSX = require('xlsx');
-var stringSimilarity = require('string-similarity');
-var fs = require('fs'); 
-var xl = require('excel4node');
+import XLSX from 'xlsx';
+import stringSimilarity from 'string-similarity';
+import fs from 'fs';
+import xl from 'excel4node';
 
 
 async function MyCompare(theExcelFile) {
