@@ -202,4 +202,5 @@ function TimeCheck(extTime, pmTime) {
   return result;
 }
 
-module.exports = MyCompare;
+// module.exports = MyCompare;
+export default MyCompare;

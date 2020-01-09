@@ -6,8 +6,8 @@ import AdmZip from 'adm-zip';
 import ExcelJS from 'exceljs';
 import XLSX from 'xlsx';
 import stringSimilarity from 'string-similarity';
-// import {MyCompare} from './compare.js';
-var MyCompare = require('./compare.js');
+import MyCompare from './compare.js';
+// var MyCompare = require('./compare.js');
 // import XLSX from 'xlsx';
 
 // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
@@ -192,4 +192,5 @@ async function MyXmlFunction(theFile, callback) {
   callback('./Comparison.xlsx')
 }
 
-module.exports = MyFunction;
+// module.exports = MyFunction;
+export default MyFunction;
