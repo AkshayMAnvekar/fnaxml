@@ -151,6 +151,18 @@ async function MyXmlFunction(theFile, callback) {
               }
               tags['time'] += tag.replace(/Est Time: /g,'');
             }
+            if (tag.includes("Type:")) {
+              if (tags['type'] !== '') {
+                tags['type'] += ', ';
+              }
+              tags['type'] += tag.replace(/Type: /g, '');
+            }
+            if (tag.includes("Gradable:")) {
+              if (tags['gradable'] !== '') {
+                tags['gradable'] += ', ';
+              }
+              tags['gradable'] += tag.replace(/Gradable: /g, '');
+            }
           });
         });
 
