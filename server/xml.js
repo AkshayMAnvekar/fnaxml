@@ -8,12 +8,24 @@ var MyCompare = require('./compare.js');
 
 
 // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
-// // fs.unlinkSync('./XML.xlsx');
-// XLSX.writeFile(workBookFinal, 'XML.xlsx');
+// // fs.unlinkSync('./Extracted.xlsx');
+// XLSX.writeFile(workBookFinal, 'Extracted.xlsx');
 var i = 2, j = 1;
 
 async function sleep(millis) {
   return new Promise(resolve => setTimeout(resolve, millis));
+}
+
+function compressFile(filename, callback) {
+  var compress = zlib.createGzip(),
+    input = fs.createReadStream(filename),
+    output = fs.createWriteStream(filename + '.gz');
+
+  input.pipe(compress).pipe(output);
+
+  if (callback) {
+    output.on('end', callback);
+  }
 }
 
 async function MyFunction(theZipFile) {
@@ -32,7 +44,7 @@ async function MyFunction(theZipFile) {
       let pmData = JSON.stringify(XLSX.utils.sheet_to_json(pmWorksheet), null, 2);
       // console.log(data);
       fs.writeFileSync('PM.json', pmData);
-      await XLSX.writeFile(workBook1, 'XML.xlsx');
+      await XLSX.writeFile(workBook1, 'Extracted.xlsx');
       // console.log(XLSX.utils.sheet_to_json(pmWorksheet));
     }
     if (zipEntry.entryName.split('.').pop() == "xml") {
@@ -43,13 +55,25 @@ async function MyFunction(theZipFile) {
 
   }
   await sleep(1000);
-  await MyCompare('XML.xlsx');
-  return './XML.xlsx';
+  await MyCompare('Extracted.xlsx');
+  await sleep(1000);
+  var OutputZip = new AdmZip();
+  OutputZip.addLocalFile("./Comparison.xlsx");
+  OutputZip.addLocalFile("./Extracted.xlsx");
+  OutputZip.writeZip("./Output.zip");
+  // var CWorkbook = XLSX.readFile('Comparison.xlsx');
+  // var Compare_sheet_name = CWorkbook.SheetNames[0];
+  // var CWorksheet = CWorkbook.Sheets[Compare_sheet_name];
+  // var workBookFinal = XLSX.readFile('Extracted.xlsx');
+  // XLSX.utils.book_append_sheet(workBookFinal, CWorksheet, Compare_sheet_name);
+  // await XLSX.writeFile(workBookFinal, 'Extracted.xlsx');
+  await sleep(1000);
+  return './Output.zip';
 }
 
 async function MyXmlFunction(theFile, callback) {
 
-  var workBookTemp = XLSX.readFile('XML.xlsx');
+  var workBookTemp = XLSX.readFile('Extracted.xlsx');
   var ws = workBookTemp.Sheets['Extracted Data'];
   // console.log(XLSX.utils.sheet_to_json(ws));
 
@@ -146,11 +170,11 @@ async function MyXmlFunction(theFile, callback) {
         i++;
       });
       // console.log(XLSX.utils.sheet_to_json(ws));
-      await XLSX.writeFile(workBookTemp, 'XML.xlsx');
+      await XLSX.writeFile(workBookTemp, 'Extracted.xlsx');
       console.log('Done');
     });
   });
-  callback('./Excel.xlsx')
+  callback('./Comparison.xlsx')
 }
 
 module.exports = MyFunction;

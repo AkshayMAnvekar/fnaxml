@@ -6,7 +6,7 @@ import XLSX from 'xlsx';
 import multer from 'multer';
 const pd = require('pretty-data').pd;
 // import pd from 'pretty-data';
-var MyFunction = require('../xml.js');
+var MyFunction = require('./xml.js');
 
 // var storage = multer.diskStorage({
 //   destination: function (req, file, callback) {
