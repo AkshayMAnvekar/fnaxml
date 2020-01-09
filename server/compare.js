@@ -129,7 +129,7 @@ function MatchArray (a, b) {
   result['extract'] = x.toString();
   result['PM'] = y.toString();
   result['Result'] = stringSimilarity.compareTwoStrings(x.toString(), y.toString());
-  console.log(x, ',', y,',',':',result)
+  // console.log(x, ',', y,',',':',result)
   return result;
 
 }
