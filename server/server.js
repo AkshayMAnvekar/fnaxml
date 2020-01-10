@@ -39,6 +39,20 @@ app.get('/getfile1', (req, res)=>{
   console.log(req.query)
   res.send('My page 2');
 })
+// app.post('/ExcelTemplate', (req, res) => {
+//   upload(req, res, async function (err) {
+//     if (err) {
+//       return res.end("Error uploading file.");
+//     }
+//     console.log("Template");
+
+//     return res.download(
+//       './public/ExcelTemplate.xlsx'
+//     )
+//     res.end("File is uploaded");
+//   });
+//   console.log(req.query)
+// });
 app.post('/getfile', (req, res)=>{
   upload(req, res, async function (err) {
     if (err) {

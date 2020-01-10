@@ -61,6 +61,7 @@ async function MyCompare(theExcelFile) {
         var TimeRes = TimeCheck(Que.Time, pmQ.Time)
         var TypeRes = TypeCheck(Que.Type, pmQ.Type)
         var qTypeRes = qTypeCheck(Que.Worksheet, pmQ.Worksheet)
+        var GraRes = GraCheck(Que.Gradable, pmQ.Worksheet)
         // var LODesRes = LoDesCheck(Que.LODescription, pmJson2)
         console.log(TypeRes);
         // console.log(qTypeRes);
@@ -98,6 +99,9 @@ async function MyCompare(theExcelFile) {
         compareWS.cell(i, 11)
           .string(`Extracted Data: ${qTypeRes['extract']}\r\nProblem Map Data: ${qTypeRes['PM']}\r\nMatch: ${qTypeRes['Result']}`)
           .style(((qTypeRes['Result'] >= 0.95) ? style : styleNoMatch));
+        compareWS.cell(i, 12)
+          .string(`Extracted Data: ${GraRes['extract']}\r\nProblem Map Data: ${GraRes['PM']}\r\nMatch: ${GraRes['Result']}`)
+          .style(((GraRes['Result'] >= 0.95) ? style : styleNoMatch));
       }
     }
     // console.log(qNo, Que.Q);
@@ -183,6 +187,19 @@ function qTypeCheck(extQt, pmQt) {
   return MatchArray(a, b)
 }
 
+function GraCheck(extGra, pmGra) {
+  var a = extGra.toUpperCase();
+  var b = pmGra.toUpperCase();
+  var result = {};
+  result['extract'] = a;
+  result['PM'] = b;
+  result['Result'] = 1;
+  if (a.includes('ESSAY') && b.includes('AUTO')) {
+    result['Result'] = 0;
+  }
+  return result
+}
+
 function TypeCheck(extType, pmType) {
   var a = extType.charAt(0);
   a = a.toUpperCase();
@@ -263,9 +280,19 @@ function TimeCheck(extTime, pmTime) {
   // console.log(parseInt(a[a.length - 1]), parseInt(b[b.length - 1]));
   // MatchArray (a, b)
   var result = {};
-  result['extract'] = parseInt(a[a.length - 1])
-  result['PM'] = parseInt(b[b.length - 1])
-  result['Result'] = (result['extract'] === result['PM']) ? 1 : 0;
+  result['extract'] = extTime
+  result['PM'] = pmTime
+  if ((a.length > 1) && (b.length > 1)) {
+    if ((a[a.length - 1] === b[b.length - 1]) && (a[0] === b[0])) {
+      result['Result'] = 1;
+    }
+    else {
+      result['Result'] = 0;
+    }
+  }
+  else {
+    result['Result'] = (parseInt(a[a.length - 1]) === parseInt(b[b.length - 1])) ? 1 : 0;
+  }
   // console.log('time',result)
   return result;
 }

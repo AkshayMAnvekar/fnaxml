@@ -14,7 +14,7 @@
   },
   {
     "Q": "AP1-2",
-    "LO": "LO 01-01\r\nLO 01-05",
+    "LO": "LO 01-01; LO 01-05",
     "Topic": "Some Basic Terminology\r\nFederal Income Taxes",
     "AACSB": "Knowledge Application",
     "BB": "Legal\r\nGlobal",
@@ -27,7 +27,7 @@
   },
   {
     "Q": "AP1-3",
-    "LO": "LO 01-01\r\nLO 01-05",
+    "LO": "LO 01-01; LO 01-05",
     "Topic": "Some Basic Terminology\r\nFederal Income Taxes",
     "AACSB": "Knowledge Application",
     "BB": "Legal\r\nGlobal",
@@ -157,7 +157,7 @@
   },
   {
     "Q": "AP1-13",
-    "LO": "LO 01-03          LO 01-04",
+    "LO": "LO 01-03; LO 01-04",
     "Topic": "Local Taxes; Retail Sales, Use, and Excise Taxes",
     "AACSB": "Analytical Thinking",
     "BB": "Critical Thinking",
@@ -261,7 +261,7 @@
   },
   {
     "Q": "AP2-6",
-    "LO": "LO 02-02\r\nLO 02-02",
+    "LO": "LO 02-02; LO 02-02",
     "Topic": "Static versus Dynamic Forcasting\r\nBehavioral Responses to Rate Changes",
     "AACSB": "Knowledge Application",
     "BB": "Critical Thinking",
@@ -274,7 +274,7 @@
   },
   {
     "Q": "AP2-7",
-    "LO": "LO 02-02\r\nLO 02-02",
+    "LO": "LO 02-02; LO 02-02",
     "Topic": "Static versus Dynamic Forcasting\r\nBehavioral Responses to Rate Changes",
     "AACSB": "Knowledge Application",
     "BB": "Critical Thinking",
