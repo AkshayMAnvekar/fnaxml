@@ -26,6 +26,19 @@ async function MyCompare(theExcelFile) {
     },
     numberFormat: '$#,##0.00; ($#,##0.00); -',
   });
+  var stylePartialMatch = compareWB.createStyle({
+    font: {
+      color: '#000000',
+      size: 12,
+    },
+    fill: { // §18.8.20 fill (Fill)
+      type: 'pattern', // Currently only 'pattern' is implemented. Non-implemented option is 'gradient'
+      patternType: 'solid', //§18.18.55 ST_PatternType (Pattern Type)
+      // bgColor: '#FF0000' // HTML style hex value. defaults to black
+      fgColor: '#FFA500' // HTML style hex value. defaults to black.
+    },
+    numberFormat: '$#,##0.00; ($#,##0.00); -',
+  });
   var WSoptions = {
     'sheetFormat': {
       'defaultColWidth': 30,
@@ -62,8 +75,8 @@ async function MyCompare(theExcelFile) {
         var TypeRes = TypeCheck(Que.Type, pmQ.Type)
         var qTypeRes = qTypeCheck(Que.Worksheet, pmQ.Worksheet)
         var GraRes = GraCheck(Que.Gradable, pmQ.Worksheet)
-        // var LODesRes = LoDesCheck(Que.LODescription, pmJson2)
-        console.log(TypeRes);
+        var LoDesRes = LoDesCheck(Que.LODescription, pmJson2)
+        // console.log(Que.LODescription);
         // console.log(qTypeRes);
         // console.log(qNo[0], pmQNo[0]);
         compareWS.cell(i, 1)
@@ -71,37 +84,42 @@ async function MyCompare(theExcelFile) {
           .style(style);
         compareWS.cell(i, 2)
           .string(`Extracted Data: ${LORes['extract']}\r\nProblem Map Data: ${LORes['PM']}\r\nMatch: ${LORes['Result']}`)
-          .style(((LORes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((LORes['Result'] === 1) ? style : ((LORes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 3)
           .string(`Extracted Data: ${TopicRes['extract']}\r\nProblem Map Data: ${TopicRes['PM']}\r\nMatch: ${TopicRes['Result']}`)
-          .style(((TopicRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((TopicRes['Result'] === 1) ? style : ((TopicRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 4)
           .string(`Extracted Data: ${AacsbRes['extract']}\r\nProblem Map Data: ${AacsbRes['PM']}\r\nMatch: ${AacsbRes['Result']}`)
-          .style(((AacsbRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((AacsbRes['Result'] === 1) ? style : ((AacsbRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 5)
           .string(`Extracted Data: ${BBRes['extract']}\r\nProblem Map Data: ${BBRes['PM']}\r\nMatch: ${BBRes['Result']}`)
-          .style(((BBRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((BBRes['Result'] === 1) ? style : ((BBRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 6)
           .string(`Extracted Data: ${FNRes['extract']}\r\nProblem Map Data: ${FNRes['PM']}\r\nMatch: ${FNRes['Result']}`)
-          .style(((FNRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((FNRes['Result'] === 1) ? style : ((FNRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 7)
           .string(`Extracted Data: ${BloomsRes['extract']}\r\nProblem Map Data: ${BloomsRes['PM']}\r\nMatch: ${BloomsRes['Result']}`)
-          .style(((BloomsRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((BloomsRes['Result'] === 1) ? style : ((BloomsRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 8)
           .string(`Extracted Data: ${DiffRes['extract']}\r\nProblem Map Data: ${DiffRes['PM']}\r\nMatch: ${DiffRes['Result']}`)
-          .style(((DiffRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((DiffRes['Result'] === 1) ? style : ((DiffRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 9)
           .string(`Extracted Data: ${TimeRes['extract']}\r\nProblem Map Data: ${TimeRes['PM']}\r\nMatch: ${TimeRes['Result']}`)
-          .style(((TimeRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((TimeRes['Result'] === 1) ? style : ((TimeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 10)
           .string(`Extracted Data: ${TypeRes['extract']}\r\nProblem Map Data: ${TypeRes['PM']}\r\nMatch: ${TypeRes['Result']}`)
-          .style(((TypeRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((TypeRes['Result'] === 1) ? style : ((TypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 11)
           .string(`Extracted Data: ${qTypeRes['extract']}\r\nProblem Map Data: ${qTypeRes['PM']}\r\nMatch: ${qTypeRes['Result']}`)
-          .style(((qTypeRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((qTypeRes['Result'] === 1) ? style : ((qTypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         compareWS.cell(i, 12)
           .string(`Extracted Data: ${GraRes['extract']}\r\nProblem Map Data: ${GraRes['PM']}\r\nMatch: ${GraRes['Result']}`)
-          .style(((GraRes['Result'] >= 0.95) ? style : styleNoMatch));
+          .style(((GraRes['Result'] === 1) ? style : ((GraRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+        // console.log('1', LoDesRes);
+          compareWS.cell(i, 13)
+          .string(`Extracted Data: ${LoDesRes['extract']}\r\nProblem Map Data: ${LoDesRes['PM']}\r\nMatch: ${LoDesRes['Result']}`)
+          .style(((LoDesRes['Result'] === 1) ? style : ((LoDesRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+        // console.log('2', LoDesRes);
       }
     }
     // console.log(qNo, Que.Q);
@@ -239,27 +257,59 @@ function BloomsCheck(extBloom, pmBloom) {
 function LoDesCheck(extLoD, pmLoD) {
   var a = extLoD;
   var b = pmLoD;
-  console.log(b);
+  // console.log(b);
   var result = {};
-  if(extLoD.includes(',')) {
-    var x = a.split(/[,;]/g).sort();
-    // for(var i = x.length(); i >= 0; i--) {
-    //   for(y in pmLoD) {
-        console.log(x, typeof x);
+  result['extract'] = '';
+  result['PM'] = '';
+  result['Result'] = 0.0;
+  if(extLoD.includes(';')) {
+    var x = a.split(/[;]/g).sort();
+    console.log("Mul")
+    for (var ext of x) {  
+      for (var lod of pmLoD) {
+        c = ext
+        d = lod['LODescription']
+        console.log('mul', ext)
+        if (c === d) {
+          var val = MatchArray(ext, lod['LODescription'].replace(/\s{2,}/g, ' ')) 
+          // console.log(val, c, d)
+          if (result['extract'] !== '') {
+            result['extract'] += ', ';
+          }
+
+          if (result['PM'] !== '') {
+            result['PM'] += ', ';
+          }
+          // if (result['Result'] !== '') {
+          //   result['Result'] += ', ';
+          // }
+          result['extract'] += val['extract'];
+          result['PM'] += val['PM'];
+          result['Result'] = (result['Result'] + val['Result'])/2;
+        }
+      }
+    }
+      // console.log(x, typeof x);
     //   }
     // }
   }
   else {
-    var result = {};
-    for(lod in pmLoD) {
+    for(var lod of pmLoD) {
+      // console.log(c)
+      console.log("Sin", extLoD)
+
+      if (extLoD.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4') === lod['LODescription'].replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4')) {
+        result = MatchArray(extLoD, lod['LODescription'].replace(/\s{2,}/g, ' '))
+      }
       // var temp = MatchArray(a, b)
       // if(temp['Result'] > 0.95 ) {
         // result = temp;
       // }
       console.log(lod, typeof lod);
     }
-    return result;
+    
   }
+  return result;
 }
 
 function DifficultyCheck(extDiff, pmDiff) {

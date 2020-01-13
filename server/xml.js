@@ -36,7 +36,7 @@ async function MyFunction(theZipFile) {
   var zipEntries = zip.getEntries();// an array of ZipEntry records
   // zipEntries.forEach(async function(zipEntry) {
   for await (const zipEntry of zipEntries) {
-    await sleep(1000);
+    await sleep(2000);
     console.log(zipEntry.entryName); // outputs zip entries information
     if (zipEntry.entryName.split('.').pop() == "xlsx") {
       var pmWorkbook = XLSX.readFile(zipEntry.entryName);
@@ -62,9 +62,9 @@ async function MyFunction(theZipFile) {
     }
 
   }
-  await sleep(1000);
+  await sleep(2000);
   await MyCompare('Extracted.xlsx');
-  await sleep(1000);
+  await sleep(2000);
   var OutputZip = new AdmZip();
   OutputZip.addLocalFile("./Comparison.xlsx");
   OutputZip.addLocalFile("./Extracted.xlsx");
@@ -75,7 +75,7 @@ async function MyFunction(theZipFile) {
   // var workBookFinal = XLSX.readFile('Extracted.xlsx');
   // XLSX.utils.book_append_sheet(workBookFinal, CWorksheet, Compare_sheet_name);
   // await XLSX.writeFile(workBookFinal, 'Extracted.xlsx');
-  await sleep(1000);
+  await sleep(2000);
   return './Output.zip';
 }
 
@@ -128,7 +128,7 @@ async function MyXmlFunction(theFile, callback) {
             }
             if (tag.includes("Learning Objective:")) {
               if (tags['LODescription'] !== '') {
-                tags['LODescription'] += ', ';
+                tags['LODescription'] += ';';
               }
               tags['LODescription'] += tag.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4 $5');
             }
