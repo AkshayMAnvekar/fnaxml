@@ -18,7 +18,15 @@ const MyFunction = require('./xml.js');
 //   }
 // });
 var storage = multer.memoryStorage()
-var upload = multer({ storage: storage }).single('userPhoto');
+// var storage = multer.diskStorage({
+//   destination: function (req, file, cb) {
+//     cb(null, 'public/uploads')
+//   },
+//   filename: function (req, file, cb) {
+//     cb(null, file.fieldname + '-' + Date.now())
+//   }
+// })
+var upload = multer({ storage: storage });
 
 const app = express();
 
@@ -58,8 +66,11 @@ app.post('/getfile', (req, res)=>{
     if (err) {
       return res.end("Error uploading file.");
     }
-    console.log("Call");
-    var workbook = await MyFunction(`${req.file.originalname}`);
+    console.log("MyFunction Call");
+    console.log(req.file.originalname)
+    // var workbook = await MyFunction(`${req.file.originalname}`);
+    var workbook = MyFunction(`${req.file.originalname}`);
+
     console.log("Result", workbook);
     return res.download(
       workbook
@@ -67,6 +78,24 @@ app.post('/getfile', (req, res)=>{
     res.end("File is uploaded");
   });
 })
+// app.post('/getfile', upload.single('myFile'), (req, res, next) => {
+//   const file = req.file
+//   if (!file) {
+//     const error = new Error('Please upload a file')
+//     error.httpStatusCode = 400
+//     return next(error)
+//   }
+//   console.log("MyFunction Call");
+//   console.log(req.file.originalname)
+//   // var workbook = await MyFunction(`${req.file.originalname}`);
+//   var workbook = MyFunction(`${req.file.originalname}`);
+
+//   console.log("Result", workbook);
+//   return res.download(
+//     workbook
+//   )
+//   res.end("File is uploaded");
+// })
 
 app.get('*', (req, res)=>{
   res.send('My web page');
