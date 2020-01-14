@@ -13,6 +13,20 @@ async function MyCompare(theExcelFile) {
     },
     numberFormat: '$#,##0.00; ($#,##0.00); -',
   });
+  var styleHeader = compareWB.createStyle({
+    font: {
+      bold: true,
+      color: '#000000',
+      size: 12,
+    },
+    fill: { // §18.8.20 fill (Fill)
+      type: 'pattern', // Currently only 'pattern' is implemented. Non-implemented option is 'gradient'
+      patternType: 'solid', //§18.18.55 ST_PatternType (Pattern Type)
+      // bgColor: '#FF0000' // HTML style hex value. defaults to black
+      fgColor: '#00B8FF' // HTML style hex value. defaults to black.
+    },
+    numberFormat: '$#,##0.00; ($#,##0.00); -',
+  });
   var styleNoMatch = compareWB.createStyle({
     font: {
       color: '#000000',
@@ -46,7 +60,45 @@ async function MyCompare(theExcelFile) {
     },
   };
   var compareWS = compareWB.addWorksheet('Comparison Result', WSoptions);
-
+  compareWS.cell(1, 1)
+    .string('Question')
+    .style(styleHeader);
+  compareWS.cell(1, 2)
+    .string('LO')
+    .style(styleHeader);
+  compareWS.cell(1, 3)
+    .string('Topic')
+    .style(styleHeader);
+  compareWS.cell(1, 4)
+    .string('AACSB')
+    .style(styleHeader);
+  compareWS.cell(1, 5)
+    .string('BB')
+    .style(styleHeader);
+  compareWS.cell(1, 6)
+    .string('FN')
+    .style(styleHeader);
+  compareWS.cell(1, 7)
+    .string('Blooms')
+    .style(styleHeader);
+  compareWS.cell(1, 8)
+    .string('Difficulty')
+    .style(styleHeader);
+  compareWS.cell(1, 9)
+    .string('Time')
+    .style(styleHeader);
+  compareWS.cell(1, 10)
+    .string('Type')
+    .style(styleHeader);
+  compareWS.cell(1, 11)
+    .string('Worksheet')
+    .style(styleHeader);
+  compareWS.cell(1, 12)
+    .string('Gradable')
+    .style(styleHeader);
+  compareWS.cell(1, 13)
+    .string('LODescription')
+    .style(styleHeader);
   var cWorkBook = XLSX.readFile('Extracted.xlsx');
   var extWS = cWorkBook.Sheets['Extracted Data'];
   var extJson = XLSX.utils.sheet_to_json(extWS);
@@ -264,12 +316,12 @@ function LoDesCheck(extLoD, pmLoD) {
   result['Result'] = 0.0;
   if(extLoD.includes(';')) {
     var x = a.split(/[;]/g).sort();
-    console.log("Mul")
+    // console.log("Mul")
     for (var ext of x) {  
       for (var lod of pmLoD) {
         c = ext
         d = lod['LODescription']
-        console.log('mul', ext)
+        // console.log('mul', ext)
         if (c === d) {
           var val = MatchArray(ext, lod['LODescription'].replace(/\s{2,}/g, ' ')) 
           // console.log(val, c, d)
@@ -285,9 +337,13 @@ function LoDesCheck(extLoD, pmLoD) {
           // }
           result['extract'] += val['extract'];
           result['PM'] += val['PM'];
-          result['Result'] = (result['Result'] + val['Result'])/2;
+          result['Result'] = result['Result'] + val['Result'];
         }
       }
+      if(result['Result'] > 1) {
+        result['Result'] = result['Result']/2;
+      }
+      
     }
       // console.log(x, typeof x);
     //   }
@@ -296,7 +352,7 @@ function LoDesCheck(extLoD, pmLoD) {
   else {
     for(var lod of pmLoD) {
       // console.log(c)
-      console.log("Sin", extLoD)
+      // console.log("Sin", extLoD)
 
       if (extLoD.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4') === lod['LODescription'].replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4')) {
         result = MatchArray(extLoD, lod['LODescription'].replace(/\s{2,}/g, ' '))
@@ -305,7 +361,7 @@ function LoDesCheck(extLoD, pmLoD) {
       // if(temp['Result'] > 0.95 ) {
         // result = temp;
       // }
-      console.log(lod, typeof lod);
+      // console.log(lod, typeof lod);
     }
     
   }

@@ -12,7 +12,7 @@ const MyCompare = require('./compare.js');
 
 // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
 // // fs.unlinkSync('./Extracted.xlsx');
-// XLSX.writeFile(workBookFinal, 'Extracted.xlsx');
+// XLSX.writeFileSync(workBookFinal, 'Extracted.xlsx');
 var i = 2, j = 1;
 
 async function sleep(millis) {
@@ -46,13 +46,13 @@ async function MyFunction(theZipFile) {
       XLSX.utils.book_append_sheet(workBook1, pmWorksheet, first_sheet_name);
       var sec_sheet_name = pmWorkbook.SheetNames[1];
       var pmWorksheet2 = pmWorkbook.Sheets[sec_sheet_name];
-      await XLSX.writeFile(workBook1, 'Extracted.xlsx');
+      await XLSX.writeFileSync(workBook1, 'Extracted.xlsx');
       var workBook1 = XLSX.readFile('Extracted.xlsx');
       XLSX.utils.book_append_sheet(workBook1, pmWorksheet2, sec_sheet_name);
       let pmData = JSON.stringify(XLSX.utils.sheet_to_json(pmWorksheet), null, 2);
       // console.log(data);
       fs.writeFileSync('PM.json', pmData);
-      await XLSX.writeFile(workBook1, 'Extracted.xlsx');
+      await XLSX.writeFileSync(workBook1, 'Extracted.xlsx');
       // console.log(XLSX.utils.sheet_to_json(pmWorksheet));
     }
     if (zipEntry.entryName.split('.').pop() == "xml") {
@@ -74,7 +74,7 @@ async function MyFunction(theZipFile) {
   // var CWorksheet = CWorkbook.Sheets[Compare_sheet_name];
   // var workBookFinal = XLSX.readFile('Extracted.xlsx');
   // XLSX.utils.book_append_sheet(workBookFinal, CWorksheet, Compare_sheet_name);
-  // await XLSX.writeFile(workBookFinal, 'Extracted.xlsx');
+  // await XLSX.writeFileSync(workBookFinal, 'Extracted.xlsx');
   await sleep(2000);
   return './Output.zip';
 }
@@ -108,13 +108,17 @@ async function MyXmlFunction(theFile, callback) {
         tags['time'] = ``;
         tags['type'] = ``;
         tags['gradable'] = ``;
-        tags['qtype'] = ``;
+        tags['qtype'] = value.type.toString();
         tags['LODescription'] = ``;
         tags['title'] = value.title.toString();
         var prop = value.questionProperties[0];
+        // console.log(value.questionProperties[0])
         for (individualProperty of prop.property) {
           if (individualProperty['$'].name === 'customType') {
-            tags['qtype'] += individualProperty['$'].value;
+            if (individualProperty['$'].value != '') {
+              tags['qtype'] = individualProperty['$'].value;
+            }
+            console.log(tags['title'], tags['qtype'])
           }
         }
         value.categories.forEach(function (value1) {
@@ -209,7 +213,7 @@ async function MyXmlFunction(theFile, callback) {
         i++;
       });
       // console.log(XLSX.utils.sheet_to_json(ws));
-      await XLSX.writeFile(workBookTemp, 'Extracted.xlsx');
+      await XLSX.writeFileSync(workBookTemp, 'Extracted.xlsx');
       console.log('Done');
     });
   });
