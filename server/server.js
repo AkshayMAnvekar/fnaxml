@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const formidable = require('formidable');
 const XLSX = require('xlsx');
 const multer = require('multer');
+const fs = require('fs');
+
 // const pd = require('pretty-data').pd;
 // import pd from 'pretty-data';
 const MyFunction = require('./xml.js');
@@ -26,7 +28,7 @@ var storage = multer.memoryStorage()
 //     cb(null, file.fieldname + '-' + Date.now())
 //   }
 // })
-var upload = multer({ storage: storage });
+var upload = multer({ storage: storage }).single('myFile');
 
 const app = express();
 
@@ -67,10 +69,13 @@ app.post('/getfile', (req, res)=>{
       return res.end("Error uploading file.");
     }
     console.log("MyFunction Call");
-    console.log(req.file.originalname)
+    console.log(req.file.buffer)
+    console.log("File Wirter Call");
     // var workbook = await MyFunction(`${req.file.originalname}`);
-    var workbook = MyFunction(`${req.file.originalname}`);
-
+    // fs.writeFileSync(req.file.buffer, 'Archive.zip');
+    console.log("File Wirter Close");
+    // var workbook = MyFunction(`${req.file.originalname}`);
+    var workbook = await MyFunction(req.file.buffer);
     console.log("Result", workbook);
     return res.download(
       workbook

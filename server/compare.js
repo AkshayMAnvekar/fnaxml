@@ -110,7 +110,8 @@ async function MyCompare(theExcelFile) {
   var i = 2;
   for (let Que of extJson) {
     Que.Q = Que.Q.replace(/\[(.*)\]/g, "");
-    var qNo = Que.Q.match(/(\d{1,2}-\d{1,3})/g);
+    var qNo = Que.Q.match(/(\d{1,2}-\d{1,3})/);
+    console.log(qNo[0]);
     qNo[0] = qNo[0].replace(/\b0+/g, "");
 
     for (let pmQ of pmJson) {
@@ -264,6 +265,10 @@ function GraCheck(extGra, pmGra) {
   result['extract'] = a;
   result['PM'] = b;
   result['Result'] = 1;
+  console.log('Grade:',a);
+  if (a === '') {
+    result['Result'] = 0;
+  }
   if (a.includes('ESSAY') && b.includes('AUTO')) {
     result['Result'] = 0;
   }
@@ -312,21 +317,21 @@ function BloomsCheck(extBloom, pmBloom) {
 function LoDesCheck(extLoD, pmLoD) {
   var a = extLoD;
   var b = pmLoD;
-  // console.log(b);
+  console.log(a);
   var result = {};
-  result['extract'] = '';
+  result['extract'] = a;
   result['PM'] = '';
   result['Result'] = 0.0;
   if(extLoD.includes(';')) {
     var x = a.split(/[;]/g).sort();
     // console.log("Mul")
-    for (var ext of x) {  
+    for (var ext of x) {
       for (var lod of pmLoD) {
         c = ext
         d = lod['LODescription']
         // console.log('mul', ext)
         if (c === d) {
-          var val = MatchArray(ext, lod['LODescription'].replace(/\s{2,}/g, ' ')) 
+          var val = MatchArray(ext, lod['LODescription'].replace(/\s{2,}/g, ' '))
           // console.log(val, c, d)
           if (result['extract'] !== '') {
             result['extract'] += ', ';
@@ -338,15 +343,15 @@ function LoDesCheck(extLoD, pmLoD) {
           // if (result['Result'] !== '') {
           //   result['Result'] += ', ';
           // }
-          result['extract'] += val['extract'];
-          result['PM'] += val['PM'];
+          // result['extract'] += val['extract'];
+          // result['PM'] += val['PM'];
           result['Result'] = result['Result'] + val['Result'];
         }
       }
       if(result['Result'] > 1) {
         result['Result'] = result['Result']/2;
       }
-      
+
     }
       // console.log(x, typeof x);
     //   }
@@ -366,7 +371,7 @@ function LoDesCheck(extLoD, pmLoD) {
       // }
       // console.log(lod, typeof lod);
     }
-    
+
   }
   return result;
 }

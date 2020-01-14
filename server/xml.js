@@ -9,6 +9,7 @@ const stringSimilarity = require('string-similarity');
 // const MyCompare = require('./compare.js');
 const MyCompare = require('./compare.js');
 // const XLSX = require('xlsx');
+const path = require('path');
 
 // var workBookFinal = XLSX.readFile('ExcelTemplate.xlsx'); //XLSX.utils.book_new();
 // // fs.unlinkSync('./Extracted.xlsx');
@@ -30,18 +31,39 @@ function compressFile(filename, callback) {
     output.on('end', callback);
   }
 }
+async function folderDel() {
+  const directory = './Temp';
+
+  fs.readdir(directory, (err, files) => {
+    if (err) throw err;
+
+    for (const file of files) {
+      fs.unlink(path.join(directory, file), err => {
+        if (err) throw err;
+      });
+    }
+  });
+}
 
 async function MyFunction(theZipFile) {
+  await folderDel();
+  await sleep(2000);
+
   console.log("Opening Zip File", theZipFile);
   var zip = new AdmZip(theZipFile);
+  // InputZip.writeZip("./Archive.zip");
+  // var zip = new AdmZip("./Archive.zip");
   var zipEntries = zip.getEntries();
-  console.log("Parsing Zip File");// an array of ZipEntry records
+  console.log("Parsing Zip File");
+  zip.extractAllTo(/*target path*/"./Temp/", /*overwrite*/true);
+// an array of ZipEntry records
   // zipEntries.forEach(async function(zipEntry) {
-  for await (const zipEntry of zipEntries) {
+  for await (var zipEntry of zipEntries) {
     await sleep(2000);
-    console.log(zipEntry.entryName); // outputs zip entries information
+    // console.log("Reading Zip File", zipEntry)
+    console.log(zipEntry.isDirectory); // outputs zip entries information
     if (zipEntry.entryName.split('.').pop() == "xlsx") {
-      var pmWorkbook = XLSX.readFile(zipEntry.entryName);
+      var pmWorkbook = XLSX.readFile('./Temp/'+zipEntry.entryName);
       var first_sheet_name = pmWorkbook.SheetNames[0];
       var pmWorksheet = pmWorkbook.Sheets[first_sheet_name];
       var workBook1 = XLSX.readFile('ExcelTemplate.xlsx');
@@ -58,14 +80,16 @@ async function MyFunction(theZipFile) {
       // console.log(XLSX.utils.sheet_to_json(pmWorksheet));
     }
     if (zipEntry.entryName.split('.').pop() == "xml") {
-      await MyXmlFunction(zipEntry.entryName, function (a) {
-        console.log(a);
+      await MyXmlFunction('./Temp/'+zipEntry.entryName, function (a) {
+        console.log('XML',a);
       })
     }
 
   }
   await sleep(2000);
+  console.log('Compare Start');
   await MyCompare('Extracted.xlsx');
+  console.log('Compare End');
   await sleep(2000);
   var OutputZip = new AdmZip();
   OutputZip.addLocalFile("./Comparison.xlsx");
@@ -99,120 +123,122 @@ async function MyXmlFunction(theFile, callback) {
       var quest = result.questionSet;
       var que = quest.question
       que.forEach(async function (value) {
-        var tags = {};
-        tags['LO'] = ``;
-        tags['topic'] = ``;
-        tags['AACSB'] = ``;
-        tags['BB'] = ``;
-        tags['FN'] = ``;
-        tags['blooms'] = ``;
-        tags['difficulty'] = ``;
-        tags['time'] = ``;
-        tags['type'] = ``;
-        tags['gradable'] = ``;
-        tags['qtype'] = value.type.toString();
-        tags['LODescription'] = ``;
-        tags['title'] = value.title.toString();
-        var prop = value.questionProperties[0];
-        // console.log(value.questionProperties[0])
-        for (individualProperty of prop.property) {
-          if (individualProperty['$'].name === 'customType') {
-            if (individualProperty['$'].value != '') {
-              tags['qtype'] = individualProperty['$'].value;
+        if(value.type.toString() != 'SB') {
+          var tags = {};
+          tags['LO'] = ``;
+          tags['topic'] = ``;
+          tags['AACSB'] = ``;
+          tags['BB'] = ``;
+          tags['FN'] = ``;
+          tags['blooms'] = ``;
+          tags['difficulty'] = ``;
+          tags['time'] = ``;
+          tags['type'] = ``;
+          tags['gradable'] = ``;
+          tags['qtype'] = value.type.toString();
+          tags['LODescription'] = ``;
+          tags['title'] = value.title.toString();
+          var prop = value.questionProperties[0];
+          // console.log(value.questionProperties[0])
+          for (individualProperty of prop.property) {
+            if (individualProperty['$'].name === 'customType') {
+              if (individualProperty['$'].value != '') {
+                tags['qtype'] = individualProperty['$'].value;
+              }
+              console.log(tags['title'], tags['qtype'])
             }
-            console.log(tags['title'], tags['qtype'])
           }
-        }
-        value.categories.forEach(function (value1) {
-          value1.internal_category.forEach(function (value2) {
-            var tag = value2.title.toString();
-            if (tag.includes("Learning Objective:")) {
-              if (tags['LO'] !== '') {
-                tags['LO'] += ', ';
+          value.categories.forEach(function (value1) {
+            value1.internal_category.forEach(function (value2) {
+              var tag = value2.title.toString();
+              if (tag.includes("Learning Objective:")) {
+                if (tags['LO'] !== '') {
+                  tags['LO'] += ', ';
+                }
+                tags['LO'] += tag.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4');
               }
-              tags['LO'] += tag.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4');
-            }
-            if (tag.includes("Learning Objective:")) {
-              if (tags['LODescription'] !== '') {
-                tags['LODescription'] += ';';
+              if (tag.includes("Learning Objective:")) {
+                if (tags['LODescription'] !== '') {
+                  tags['LODescription'] += ';';
+                }
+                tags['LODescription'] += tag.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4 $5');
               }
-              tags['LODescription'] += tag.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4 $5');
-            }
-            if (tag.includes("Topic:")) {
-              if (tags['topic'] !== '') {
-                tags['topic'] += ', ';
+              if (tag.includes("Topic:")) {
+                if (tags['topic'] !== '') {
+                  tags['topic'] += ', ';
+                }
+                tags['topic'] += tag.replace(/Topic: /g, '');
               }
-              tags['topic'] += tag.replace(/Topic: /g, '');
-            }
-            if (tag.includes("AACSB:")) {
-              if (tags['AACSB'] !== '') {
-                tags['AACSB'] += ', ';
+              if (tag.includes("AACSB:")) {
+                if (tags['AACSB'] !== '') {
+                  tags['AACSB'] += ', ';
+                }
+                tags['AACSB'] += tag.replace(/AACSB: /g, '');
               }
-              tags['AACSB'] += tag.replace(/AACSB: /g, '');
-            }
-            if (tag.includes("AICPA: BB")) {
-              if (tags['BB'] !== '') {
-                tags['BB'] += ', ';
+              if (tag.includes("AICPA: BB")) {
+                if (tags['BB'] !== '') {
+                  tags['BB'] += ', ';
+                }
+                tags['BB'] += tag.replace(/AICPA: BB /g, '');
               }
-              tags['BB'] += tag.replace(/AICPA: BB /g, '');
-            }
-            if (tag.includes("AICPA: FN")) {
-              if (tags['FN'] !== '') {
-                tags['FN'] += ', ';
+              if (tag.includes("AICPA: FN")) {
+                if (tags['FN'] !== '') {
+                  tags['FN'] += ', ';
+                }
+                tags['FN'] += tag.replace(/AICPA: FN /g, '');
               }
-              tags['FN'] += tag.replace(/AICPA: FN /g, '');
-            }
-            if (tag.includes("Blooms:")) {
-              if (tags['blooms'] !== '') {
-                tags['blooms'] += ', ';
+              if (tag.includes("Blooms:")) {
+                if (tags['blooms'] !== '') {
+                  tags['blooms'] += ', ';
+                }
+                tags['blooms'] += tag.replace(/Blooms: /g, '');
               }
-              tags['blooms'] += tag.replace(/Blooms: /g, '');
-            }
-            if (tag.includes("Difficulty:")) {
-              if (tags['difficulty'] !== '') {
-                tags['difficulty'] += ', ';
+              if (tag.includes("Difficulty:")) {
+                if (tags['difficulty'] !== '') {
+                  tags['difficulty'] += ', ';
+                }
+                tags['difficulty'] += tag.replace(/Difficulty: /g, '');
               }
-              tags['difficulty'] += tag.replace(/Difficulty: /g, '');
-            }
-            if (tag.includes("Est Time:")) {
-              if (tags['time'] !== '') {
-                tags['time'] += ', ';
+              if (tag.includes("Est Time:")) {
+                if (tags['time'] !== '') {
+                  tags['time'] += ', ';
+                }
+                tags['time'] += tag.replace(/Est Time: /g, '');
               }
-              tags['time'] += tag.replace(/Est Time: /g, '');
-            }
-            if (tag.includes("Type:")) {
-              if (tags['type'] !== '') {
-                tags['type'] += ', ';
+              if (tag.includes("Type:")) {
+                if (tags['type'] !== '') {
+                  tags['type'] += ', ';
+                }
+                tags['type'] += tag.replace(/Type: /g, '');
               }
-              tags['type'] += tag.replace(/Type: /g, '');
-            }
-            if (tag.includes("Gradable:")) {
-              if (tags['gradable'] !== '') {
-                tags['gradable'] += ', ';
+              if (tag.includes("Gradable:")) {
+                if (tags['gradable'] !== '') {
+                  tags['gradable'] += ', ';
+                }
+                tags['gradable'] += tag.replace(/Gradable: /g, '');
               }
-              tags['gradable'] += tag.replace(/Gradable: /g, '');
-            }
+            });
           });
-        });
 
-        var rowVal = [
-          [
-            `${tags.title}`,
-            `${tags.LO}`,
-            `${tags.topic}`,
-            `${tags.AACSB}`,
-            `${tags.BB}`,
-            `${tags.FN}`,
-            `${tags.blooms}`,
-            `${tags.difficulty}`,
-            `${tags.time}`,
-            `${tags.type}`,
-            `${tags.qtype}`,
-            `${tags.gradable}`,
-            `${tags.LODescription}`
-          ]];
-        XLSX.utils.sheet_add_aoa(ws, rowVal, { origin: `A${i}` });
-        i++;
+          var rowVal = [
+            [
+              `${tags.title}`,
+              `${tags.LO}`,
+              `${tags.topic}`,
+              `${tags.AACSB}`,
+              `${tags.BB}`,
+              `${tags.FN}`,
+              `${tags.blooms}`,
+              `${tags.difficulty}`,
+              `${tags.time}`,
+              `${tags.type}`,
+              `${tags.qtype}`,
+              `${tags.gradable}`,
+              `${tags.LODescription}`
+            ]];
+          XLSX.utils.sheet_add_aoa(ws, rowVal, { origin: `A${i}` });
+          i++;
+        }
       });
       // console.log(XLSX.utils.sheet_to_json(ws));
       await XLSX.writeFileSync(workBookTemp, 'Extracted.xlsx');
