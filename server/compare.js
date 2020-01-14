@@ -267,6 +267,9 @@ function GraCheck(extGra, pmGra) {
   if (a.includes('ESSAY') && b.includes('AUTO')) {
     result['Result'] = 0;
   }
+  if (!a.includes('ESSAY') && b.includes('MANUAL')) {
+    result['Result'] = 0.975;
+  }
   return result
 }
 
