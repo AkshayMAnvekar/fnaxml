@@ -111,7 +111,7 @@ async function MyCompare(theExcelFile) {
   for (let Que of extJson) {
     Que.Q = Que.Q.replace(/\[(.*)\]/g, "");
     var qNo = Que.Q.match(/(\d{1,2}-\d{1,3})/);
-    console.log('Test',qNo);
+    // console.log('Test',qNo);
     if (qNo !== null) {
       qNo[0] = qNo[0].replace(/\b0+/g, "");
     }
@@ -212,9 +212,9 @@ async function MyCompare(theExcelFile) {
     }
     i++;
   }
-  console.log("Comp St")
+  console.log("Comparison write Start")
   compareWB.write('./Output/Comparison.xlsx');
-  console.log("Comp End")
+  console.log("Comparison write End")
 
 }
 
@@ -299,7 +299,7 @@ function GraCheck(extGra, pmGra) {
   result['extract'] = a;
   result['PM'] = b;
   result['Result'] = 1;
-  console.log('Grade:',a);
+  // console.log('Grade:',a);
   if (a === '') {
     result['Result'] = 0;
   }
@@ -351,7 +351,7 @@ function BloomsCheck(extBloom, pmBloom) {
 function LoDesCheck(extLoD, pmLoD) {
   var a = extLoD;
   var b = pmLoD;
-  console.log(a);
+  // console.log(a);
   var result = {};
   result['extract'] = a;
   result['PM'] = '';
