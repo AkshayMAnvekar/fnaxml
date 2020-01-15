@@ -69,11 +69,11 @@ app.post('/getfile', (req, res)=>{
       return res.end("Error uploading file.");
     }
     console.log("MyFunction Call");
-    console.log(req.file.buffer)
-    console.log("File Wirter Call");
+    // console.log(req.file.buffer)
+    console.log("File Writer Call");
     // var workbook = await MyFunction(`${req.file.originalname}`);
     // fs.writeFileSync(req.file.buffer, 'Archive.zip');
-    console.log("File Wirter Close");
+    console.log("File Writer Close");
     // var workbook = MyFunction(`${req.file.originalname}`);
     var workbook = await MyFunction(req.file.buffer);
     console.log("Result", workbook);
