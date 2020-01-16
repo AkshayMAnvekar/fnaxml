@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859948</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-1 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[Based on the definition of gross income in I.R.C. &#167;61 and related regulations, what is the general presumption regarding the taxability of income realized?<!--Markup Copied from Habitat-->
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>&#167;61(a) defines gross income as all income from whatever source derived. Reg. &#167;1.61-(a) provides further insight into the definition of gross income as follows: Gross income means all income from whatever source derived, unless excluded by law. Gross income includes income realized in any form, whether in money, property, or services. Thus, the general presumption regarding any income realized is that it is taxable, unless otherwise excluded by law.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859959</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-2 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Based on the definition of gross income in&nbsp;I.R.C.<!--Markup Copied from Habitat--> &#167;61, related regulations, and judicial rulings, what are the three criteria for recognizing taxable income?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>
+]]></stem>
+      <commonFeedback><![CDATA[<p>Based on &#167;61(a), Reg. &#167;1.61-(a), and various judicial rulings, taxpayers recognize gross income when: (1) they receive an economic benefit, (2) they realize the income, and (3) no tax provision allows them to exclude or defer the income from gross income for that year.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859927</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-3 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Describe the concept of realization for tax purposes.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>As indicated in Reg. &#167;1.61-(a), the tax definition of income adopts the realization principle. Under this principle, income is realized when: (1) a taxpayer engages in a transaction with another party, and (2) the transaction results in a measurable change in property rights. In other words, assets or services are exchanged for cash, claims to cash, or other assets with determinable value. The concept of realization for tax purposes closely parallels the concept of realization for financial accounting purposes. Requiring a transaction to trigger realization reduces the uncertainty associated with determining the amount of income because a change in rights can typically be traced to a specific moment in time and is generally accompanied by legal documentation.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859951</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-4 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Compare and contrast realization of income with recognition of income.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Realization is a judicial concept that determines the period in which income is generated, whereas, recognition is a statutory concept that determines whether realized income is going to be included in gross income during the period.&nbsp;Realization is a prerequisite to recognition, and absent an exclusion or deferral provision, recognition is automatic.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859936</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-5 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Tim is a plumber who joined a barter club.&nbsp;This year Tim exchanges plumbing services for a new roof.&nbsp;The roof is properly valued at $2,500, but Tim would have only billed $2,200 for the plumbing services.&nbsp;What amount of income should Tim recognize on the exchange of his services for a roof?&nbsp;Would your answer change if Tim would have normally billed $3,000 for his services?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Assuming the roof is properly valued, the taxpayer should recognize the value of the property received or $2,500 regardless of the amount he would have billed.&nbsp;The value of the plumbing services, however, would help determine the value of the roof.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859960</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-6 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Andre constructs and installs cabinets in homes.&nbsp;Blair sells and installs carpet in apartments.&nbsp;Andre and Blair worked out an arrangement whereby Andre installed cabinets in Blair&#8217;s home and Blair installed carpet in Andre&#8217;s home.&nbsp;Neither Andre nor Blair believes they are required to recognize any gross income on this exchange because neither received cash.&nbsp;Do you agree with them?&nbsp;Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Both Andre and Blair are required to recognize gross income equal to the value of the goods and services they received. Reg. &#167;1.61-(a) indicates that taxpayers realize income whether they receive money, property, or services in a transaction.&nbsp;That is, the form of the receipt does not matter.&nbsp;In this case, Andre should report gross income equal to the carpet he received and Blair should report gross income equal to the value of the cabinets he received.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859931</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-7 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>What issue precipitated the return of capital principle? Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The issue was the amount of income taxpayers must realize when they sell property. Initially, the IRS was convinced that Congress&#8217;s all-inclusive definition of income required taxpayers to include all sale proceeds in gross income. Taxpayers, on the other hand, argued that a portion of proceeds from a sale represented a return of the cost or capital investment in the underlying property (called tax basis). The courts determined that when &#173;receiving a payment for property, taxpayers are allowed to recover the cost of the property tax free. Consequently, when taxpayers sell property, they are allowed to reduce the sale proceeds by their unrecovered investment in the property to determine the realized gain from the sale. When the tax basis exceeds the sale proceeds, the return of capital principle generally applies to the extent of the sale proceeds. The excess of basis over sale proceeds is generally not considered to be a return of capital, but rather a loss that is deductible only if specifically authorized by the tax code.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859953</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-8 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Compare how the return of capital principle applies when (1) a taxpayer sells an asset and collects the sale proceeds immediately and (2) a taxpayer sells an asset and collects the sale proceeds over several periods (an installment sale). If Congress wanted to maximize revenue from installment sales, how would it have applied the return of capital principle for installment sales?<!--Markup Copied from Habitat--></p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The return of capital principle states that the proceeds from a sale are not income to the extent of the taxpayer&#8217;s cost or investment in the asset.&nbsp;When the proceeds are collected over several periods, the return of capital principle is usually modified by the law to provide that the return of capital occurs evenly (pro rata) over the collection period.&nbsp;To maximize revenues, the government might require for the return of capital to occur at the end of the collection; whereas, taxpayers normally prefer for the return of capital to occur at the beginning of the collection period to allow them to defer recognizing income from the transaction.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859933</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-9 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>This year Jorge received a refund of property taxes that he deducted on his tax return last year.&nbsp;Jorge is not sure whether he should include the refund in his gross income.&nbsp;What would you tell him?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>If the refund is made for an expenditure deducted in a previous year, then under the <b>tax benefit rule</b> the refund is included in gross income to the extent that the prior deduction produced a tax benefit. In this case, if Jorge deducted the property taxes (and received a tax benefit or tax savings from the deduction) on his prior year tax return, he must include the refund in his gross income this year to the extent the property taxes resulted in a tax benefit.&nbsp;If he did not deduct property taxes on his tax return last year, he is not required to include the refund in his gross income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859947</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-10 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Describe in general how the cash method of accounting differs from the accrual method of accounting.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Under the cash method taxpayers recognize income in the period they receive it.&nbsp;Under the accrual method, they recognize income when they earn it rather than when they receive it.&nbsp;Likewise, cash basis taxpayers are entitled to claim deductions when they make expenditures.&nbsp;Under the accrual method, taxpayers deduct expenses when they incur or accrue the associated expenditure.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859957</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-11 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Janet is a cash-method, calendar-year taxpayer. She received a check for services provided in the mail during the last week of December. However, rather than cash the check, Janet decided to wait until the following January because she believes that her delay will cause the income to be realized and recognized next year. What would you tell her? Would it matter if she didn&#8217;t open the envelope? Would it matter if she refused to check her mail during the last week of December? Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>
+]]></stem>
+      <commonFeedback><![CDATA[<p>The constructive receipt doctrine states that a taxpayer realizes and recognizes income when it is actually or constructively received. Constructive receipt is deemed to occur when the income has been credited to the taxpayer&#8217;s account or when the income is unconditionally available to the taxpayer, the taxpayer is aware of the income&#8217;s availability, and there are no restrictions on the taxpayer&#8217;s control over the income. This doctrine prevents Janet, a cash basis taxpayer, from arbitrarily shifting income to a later period by postponing the delivery or acceptance of a payment.&nbsp;It does not matter if she refuses to open the envelope or check her mail, because the income is unconditionally available to her, she is aware of the income&#8217;s availability, and there are no restrictions on her control over the income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859962</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-12 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>The cash method of accounting means that taxpayers don&#8217;t recognize income unless they receive cash or cash equivalents.&nbsp;True or false?&nbsp;Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>False - under the cash method, taxpayers recognize income in the period they receive it (in the form of cash, property, or services).</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859929</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-13 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Contrast the constructive receipt doctrine with the claim of right doctrine.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The constructive receipt doctrine states that a taxpayer realizes and recognizes income when it is actually or constructively received. Constructive receipt is deemed to occur when the income has been credited to the taxpayer's account or when the income is unconditionally available to the taxpayer, the taxpayer is aware of the income&#8217;s availability, and there are no restrictions on the taxpayer's control over the income.&nbsp;In contrast, the claim of right doctrine states that income has been realized if a taxpayer receives income and there are no restrictions on the taxpayers use of the income (for example, the taxpayer does not have an obligation to repay the amount).&nbsp;Thus, the constructive receipt applies where the taxpayer has <u>not</u> yet actually <u>received income</u> (but it has been credited to the taxpayer's account or is unconditionally available), whereas the claim of right doctrine applies when the taxpayer <u>has received</u> an item of <u>income</u> and the question is whether the taxpayer has an unrestricted right to the income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859944</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-14 (LO 5-1)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480341750</catid>
+        <title><![CDATA[Learning Objective: 05-01 Apply the concept of realization.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Dewey is a lawyer who uses the cash method of accounting.&nbsp;Last year Dewey provided a client with legal services worth $55,000, but the client could not pay the fee.&nbsp;This year Dewey requested that in lieu of paying Dewey $55,000 for the services, the client could make a $45,000 gift to Dewey&#8217;s daughter.&nbsp;Dewey&#8217;s daughter received the check for $45,000 and deposited it in her bank account.&nbsp;How much of this income is taxed, if any, to Dewey?&nbsp;Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>A cash method taxpayer recognizes income on the value of property received, so $45,000 of income will be recognized in this year.&nbsp;The assignment of income doctrine holds that earned income is taxed to the taxpayer providing the goods or services.&nbsp;Hence, Dewey and not his daughter is taxed on the entire amount of service income.&nbsp;Because the money went to Dewey&#8217;s daughter, his daughter will be treated as though she received a gift from Dewey.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859938</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-15 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Clyde and Bonnie were married this year.&nbsp;Clyde has a steady job that will pay him about $37,000, while Bonnie does odd jobs that will produce about $28,000 of income. They also have a joint savings account that will pay about $400 of interest.&nbsp;If Clyde and Bonnie reside in a community property state and file married-separate tax returns, how much gross income will Clyde and Bonnie each report?&nbsp;Is there any difference if they reside in a common law state? Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>In a community property state each spouse will report exactly half of the income earned by the other.&nbsp;Hence, Bonnie and Clyde will each report $32,700 ($18,500 + $14,000 + $200).&nbsp;In a common law state, Bonnie will report $28,200 which is her separate income ($28,000) plus half of the joint income ($200).&nbsp;Likewise, Clyde will report $37,200.</p>
+]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859949</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-16 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040753746</catid>
+        <title><![CDATA[Blooms: Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Distinguish earned income from unearned income, and provide an example of each.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Earned income is income derived from services and includes compensation and other forms of business income received by a taxpayer even if the taxpayer&#8217;s business is selling inventory.&nbsp;In contrast, unearned income is income derived from property.&nbsp;Salary is a good example of earned income whereas interest is an example of unearned income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859954</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-17 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Jim purchased 100 shares of stock this year and elected to participate in a dividend reinvestment program. This program automatically uses dividends to purchase additional shares of stock. This year Jim&#8217;s shares paid $350 of dividends, and he used these funds to purchase additional shares of stock. These additional shares are worth $375 at year-end. What amount of dividends, if any, should Jim declare as income this year? Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Jim is taxed on $350 of dividend income because under constructive receipt he had the ability or power to obtain or control the dividend income.&nbsp;That is, the tax laws treat the dividend as though Jim received the dividend and then used it to acquire the new stock.&nbsp;The value of the stock at the end of the year is not relevant, because Jim has not realized the appreciation on the stock he purchased.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859955</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-18 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Jerry has a certificate of deposit at the local bank. The interest on this certificate was credited to his account on December 31 of last year, but he didn&#8217;t withdraw the interest until January of this year. When is the interest income taxed?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Jerry should include the interest in gross income last year, because he is a cash method taxpayer, and he is treated as having received the income when it is paid or credited to his account.&nbsp;At that point, he has control over the interest income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859939</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-19 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Conceptually, when taxpayers receive annuity payments, how do they determine the amount of the payment they must include in gross income?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Payments taxpayers receive from an annuity they have purchased consist of both income and return of the initial cost or investment in the annuity.&nbsp;Consistent with the return of capital principle the proceeds are not income to the extent of the taxpayer&#8217;s investment in the asset.&nbsp;As proceeds are collected over several periods, the law provides that the return of capital occurs evenly (pro rata) over the collection period for fixed term annuities or over the expected collection period for life annuities.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859932</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-20 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>George purchased a life annuity to provide him monthly payments for as long as he lives.&nbsp;Based on IRS tables, George&#8217;s life expectancy is 100 months.&nbsp;Is George able to recover his cost of the annuity if he dies before he receives 100 monthly payments?&nbsp;Explain.&nbsp;What happens for tax purposes if George receives more than 100 payments?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>If George dies before receiving the expected number of payments, the amount of unrecovered investment (the initial investment less the amounts received treated as a nontaxable capital recovery) may be deducted on his final income tax return (as an itemized deduction).&nbsp;Conversely, if George lives longer than his estimated life expectancy, he will receive more than the expected number of payments.&nbsp;The entire amount of these &#8220;extra&#8221; payments is included in his gross income, because he would have completely recovered his investment in the annuity when he receives the payment in month number 100.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859926</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-21 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Brad purchased land for $45,000 this year.&nbsp;At year-end Brad sold the land for $51,700 and paid a sales commission of $450.&nbsp;What effect does this transaction have on Brad&#8217;s gross income?&nbsp;Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The sale increases Brad&#8217;s gross income by $6,250.&nbsp;The selling expenses reduce the amount realized on the sale from $51,700 to $51,250 and the $45,000 cost of the land is a return of capital.&nbsp;The excess of the amount realized over the cost is included in his gross income ($51,700 &#8722; $450 &#8722; $45,000 = $6,250).</p>
+]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859956</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-22 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Tomiko is a 50 percent owner (partner) in the Tanaka partnership.&nbsp;During the year, the partnership reported $1,000 of interest income and $2,000 of dividends.&nbsp;How much of this income must Tomiko include in her gross income?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Because Tanaka is a partnership (a flow-through entity), Tomiko must include her share of the partnership&#8217;s income in her gross income. In this case, Tomiko&#8217;s ownership interest is 50%, so she will include $500 of interest income and $1,000 of dividends in her gross income and report it on her tax return just as if she had received these amounts directly.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859925</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-23 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Clem and Ida were married for several years, but in 2018 they finalized their divorce. In the divorce decree, Clem agreed to deed his car to Ida and pay Ida $10,000 per year for four years (but not beyond her death). Did these transfers qualify as alimony for tax purposes? Explain.<!--Markup Copied from Habitat--></p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>For tax purposes, alimony is: (1) a transfer that is in cash, under a written separation agreement or divorce decree, (2) the separation or divorce decree does not designate the payment as something other than alimony, (3) in the case of legally separated (or divorced) taxpayers under a separation or divorce decree, the spouses do not live together when the payment is made, and (4) the payments cease upon the recipient's death. Consequently, the four yearly payments qualify as alimony. However, the automobile transfer cannot qualify for alimony, because it was not a cash payment. Because their divorce decree was finalized before January 1, 2019, Ida must include alimony payments of $10,000 in her gross income, and Clem would be allowed to deduct the amount of the alimony payments he makes to Ida as a for AGI deduction</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859961</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-24 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Larry Bounds has won the Gold Bat Award for hitting the longest home run in Major League Baseball this year. The bat is worth almost $35,000. Under what conditions can Larry exclude the award from his gross income? Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p><span style="">Larry must include the value of the award in gross income. There are three specific, narrowly defined exclusions for awards. First, awards for scientific, literary, or charitable achievement (e.g., the Nobel prize) are excluded only if the recipient was selected without any action on his part to enter the contest or proceeding, the recipient is not required to render substantial future services as a condition to receive the prize or award, and the payor of the prize or award transfers the prize or award to a federal, state, or local governmental unit or qualified charity (e.g., church, school, charitable organization, etc.) designated by the taxpayer. The second exception is for employee awards for length of service or safety achievement. These nontaxable awards are limited to $400 of tangible property other than cash per employee per year. The third exclusion is for awards and prizes for Team USA athletes received from the U.S. Olympic Committee for competing in the Olympic or Paralympic games. Obviously, Larry&#8217;s award will not qualify under either of these provisions.</span></p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859937</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-25 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Rory and Nicholi, single taxpayers, each annually receive Social Security benefits of $15,000.&nbsp;Rory&#8217;s taxable income from sources other than Social Security exceeds $200,000.&nbsp;In contrast, the Social Security benefits are Nicholi&#8217;s only source of income.&nbsp;What percentage of the Social Security benefits must Rory include in his gross income?&nbsp;What percentage of Social Security benefits is Nicholi required to include in his gross income?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Because Rory is a high-income taxpayer, he is required to include 85% of his social security benefits in his gross income.&nbsp;In contrast, because Nicholi is a low-income taxpayer (i.e., his modified AGI plus 50 percent of Social Security benefits is below $25,000), he is allowed to exclude the entire amount of his Social Security benefits from gross income.&nbsp;Two groups can exclude all Social Security benefits.&nbsp;Single taxpayers whose modified AGI plus 50 percent of their Social Security benefits are below $25,000 and married taxpayers whose modified AGI plus 50 percent of their social security benefits are below $32,000.&nbsp;Taxpayers are never required to include more than 85% of Social Security benefits in their gross income no matter how high their income level.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859935</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-26 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Rolando purchases a golf cart from his employer, E-Z-Go Golf Carts, for a sizable discount. Explain the rules for determining if Rolando&#8217;s purchase results in taxable income for him.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Although the general rule is that bargain purchases by an employee from an employer creates taxable compensation income to the employee, the tax law does provide a limited exclusion for employee bargain purchases. Specifically, employees may exclude: a) a discount on employer-provided goods as long as the discount does not exceed the employer's gross profit percentage on all property offered to sale to customers, and (b) up to 20 percent employer-provided discount on services.&nbsp;Discounts in excess of these amounts are taxable as compensation.&nbsp;Thus, if Rolando purchases the golf cart for a price that equals or exceeds his employer&#8217;s cost, the purchase will not result in any taxable income for him.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859928</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-27 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>When an employer makes a below-market loan to an employee, what are the tax consequences to the employer and employee?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The tax law requires the employer-lender and employee-borrower to treat the transaction as if:</p>
+
+<ol style=" list-style-type: decimal; padding-left: 15px;">
+	<li>The employee-borrower paid the employer-lender the difference between the applicable federal interest rate (compounded semiannually) and the actual interest paid (this difference is called &#8220;imputed interest&#8221;), and then</li>
+	<li>The employer-lender returned the imputed interest to the employee-borrower.<br>
+	<br>
+	The deemed &#8220;payment&#8221; of the imputed interest in these transactions is treated as interest income to the employer-lender and interest expense to the employee-borrower.&nbsp;The deductibility of the interest expense for the employee-borrower depends on how she used the loan proceeds (for business, investment, or personal purposes). Business interest expense is a deduction for AGI, investment interest expense is an itemized deduction subject to limitations, and personal interest is generally not deductible. The return of the imputed interest from an employer-lender to an employee-borrower is treated by both parties as taxable compensation paid to the employee.</li>
+</ol>
+]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859958</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-28 (LO 5-2)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164480448111</catid>
+        <title><![CDATA[Learning Objective: 05-02 Discuss the distinctions between the various sources of income, including income from services and property.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Explain why an insolvent taxpayer is allowed to exclude income from the discharge of indebtedness if the taxpayer remains insolvent after receiving the debt relief.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>This provision is meant to provide tax relief to taxpayers experiencing extreme financial difficulties.&nbsp;Taxpayers who are insolvent after being relieved of debt, likely do not have the wherewithal to pay taxes on income generated by the debt relief.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859950</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-29 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>What are the basic requirements to exclude the gain on the sale of a personal residence?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Taxpayers meeting certain home ownership and use requirements can permanently exclude up to $250,000 ($500,000 if married filing jointly) of realized gain on the sale of their principal residence. Gain in excess of the excludable amount generally qualifies as long-term capital gain subject to tax at preferential rates. To satisfy the ownership test, the taxpayer must have owned the residence (house, condominium, trailer, or houseboat) for a total of two or more years during the five-year period ending on the date of the sale. To satisfy the use test, the taxpayer must have used the property as her principal residence for a total of two or more years (noncontiguous use is permissible) during the five-year period ending on the date of the sale. The tax law limits each taxpayer to one exclusion every two years. Married couples filing joint returns are eligible for the full $500,000 exclusion if either spouse meets the ownership test and both spouses meet the principal-use test. However, if either spouse is ineligible for the exclusion because he or she personally used the $250,000 exclusion on another home sale during the two years before the date of the current sale, the couple&#8217;s available exclusion is reduced to $250,000.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859946</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-30 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820113</catid>
+        <title><![CDATA[Topic: Realization and Recognition of Income]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Explain why an employee should be concerned about whether his employer reimburses business expenses using an &#8220;accountable&#8221; plan.</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[The employee should be concerned because absent an accountable plan, reimbursements are reported as income to the employee and the expense is not deductible. Thus, the reimbursements would be treated as &#8220;wages&#8221; for purposes of withholding and employment taxes, and the expense would not generate any reduction in taxable income.&nbsp; On the other hand, if the plan qualifies as an accountable plan, reimbursements from the plan are not required to be included in income, but the reimbursed expenses are not deductible, either.]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859943</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-31 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Cassie works in an office and has access to several professional color printers.&nbsp;Her employer allows Cassie and her fellow employees to use the printers to print color postcards for the holidays.&nbsp;This year Cassie printed out two dozen postcards worth almost $76.&nbsp;Must Cassie include this amount in her gross income this year?&nbsp;Explain your answer.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>No - the benefit is considered a nontaxable de minimis fringe benefit because it is small in amount and infrequent.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859942</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-32 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>What are some common examples of taxable and tax-free fringe benefits?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>In addition to paying salary and wages, many employers provide employees with fringe benefits. For example, an employer may provide an employee with an automobile to use for personal purposes, pay for an employee to join a health club, or pay for an employee&#8217;s home security. In general, the value of these benefits is included in the employee&#8217;s gross income as compensation for services. However, certain fringe benefits, called &#8220;qualifying&#8221; fringe benefits, are excluded from gross income.4 Exhibit 5-3 lists some of the most common fringe benefits that are excluded from an employee&#8217;s gross income.</p>
+
+<p>&nbsp;</p>
+
+<p>Common Qualifying Fringe Benefits (excluded from employee&#8217;s gross income)&nbsp;</p>
+
+<p><a href="/extMedia/bne/accounting/spilker_12e/exhibit5_3a.png" target="_blank">Exhibit 5-3</a></p>
+]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859941</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-33 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Explain how state and local governments benefit from the provisions that allow taxpayers to exclude interest on state and local bonds from their gross income.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>State and local governments benefit because it allows them to pay a lower interest rate on the debt because investors are willing to accept the lower rate since they are not taxed on the interest income.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859930</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-34 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Explain why taxpayers are allowed to exclude gifts and inheritances from gross income even though these payments are realized and clearly provide taxpayers with the wherewithal to pay.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Gifts and inheritances are taxed by a separate tax system (the unified Federal gift and estate tax).&nbsp;Taxing gifts and inheritances as income to the recipient would subject these payments to double taxation.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859945</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-35 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Describe the kinds of insurance premiums an employer can pay on behalf of an employee without triggering includible compensation to the employee.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Health insurance premiums and a portion of life insurance premiums. The exclusion for health insurance premiums is limited to qualified plans that reimburse medical costs for the employee, spouse, and dependents. The cost of medical coverage paid by an employer and offered through a health insurance exchange is not an excludable benefit unless the employer is a small employer that elects to make all of its full-time employees eligible for plans offered through an exchange. For this purpose, a small employer is an employer that employed an average of at least one but 100 or fewer employees during business days in the prior year, and employs at least one employee on the first day of the plan year. The scope of the exclusion for life insurance premiums is limited to qualified group term policies up to a face amount of $50,000.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859940</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-36 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>How are state-sponsored 529 educational savings plans taxed if investment returns are used for educational purposes? Are the returns taxed differently if they are not ultimately used to pay for education costs?</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Investment returns from state sponsored 529 plans are never taxed if used to pay for &#8220;qualified higher education expenses&#8221; for college students (no annual limit) or for tuition expenses for students at public, private or religious elementary or secondary schools (subject to a $10,000 limit per beneficiary per year). Qualified higher education expenses include tuition, books, supplies, required equipment and supplies, computer equipment and software, and reasonable room and board costs attending a higher education institution. If distributed investment returns are used for any other purpose, or exceed the $10,000 limit for tuition expenses attributable to public, private or religious elementary or secondary schools, the distributee will pay tax on the investment returns in the year received at ordinary rates.&nbsp; In many instances, the distributee will also be required to pay an additional 10% penalty tax in addition to the normal tax on the investment returns.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859934</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-37 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Jim was injured in an accident and his surgeon botched the medical procedure.&nbsp;Jim recovered $5,000 from the doctors for pain and suffering and $2,000 for emotional distress.&nbsp;Determine the taxability of these payments and briefly explain to Jim the apparent rationale for including or excluding these payments from gross income.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Payments to compensate taxpayers for personal injuries are excluded from gross income.&nbsp;Payments for emotional distress are included in gross income, unless they are associated with medical expenses or related to physical injuries.&nbsp;In this case all $7,000 is excluded from gross income because Jim&#8217;s emotional distress is associated with a physical injury.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663859952</ezid>
+    <version>1579177287621</version>
+    <title><![CDATA[Discussion Question 5-38 (LO 5-3)]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>1136040731115</catid>
+        <title><![CDATA[Topic: Exclusion Provisions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820111</catid>
+        <title><![CDATA[Learning Objective: 05-03 Apply basic income exclusion provisions to compute gross income.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="Essay" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="string" value="true" />
+      <property name="aggregatedGrading" type="string" value="false" />
+    </questionProperties>
+    <worksheet>
+      <stem><![CDATA[<p>Tom was just hired by Acme Corporation and has decided to purchase disability insurance.&nbsp;This insurance promises to pay him weekly benefits to replace his salary should he be unable to work because of disability.&nbsp;Disability insurance is also available through Acme as part of its compensation plan.&nbsp;Acme pays these premiums as a nontaxable fringe benefit, but the plan promises to pay about 10 percent less in benefits.&nbsp;If Tom elects to have Acme pay the premiums, then his compensation will be reduced by an equivalent amount.&nbsp;Should tax considerations play a role in Tom&#8217;s choice to buy disability insurance through Acme or on his own?&nbsp;Explain.</p>
+
+<p>&nbsp;</p>
+
+<p>__ans1__</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Yes, tax considerations should play a role in the decision.&nbsp;The premiums paid by Acme are excluded from Tom&#8217;s gross income, but he must include in gross income any disability benefits he receives from the policy paid for by Acme.&nbsp;In contrast, if Tom pays the premiums, he is allowed to exclude any benefits he receives from the policy.&nbsp;However, he is not allowed to deduct the premium payments (he must pay premiums with after-tax dollars).&nbsp;This increases the effective cost of the premiums relative to the cost of the premiums paid for by Acme.&nbsp;Tom must weigh these tax factors and non-tax factors such as the amount of the benefit under either option among others, when making his decision.</p>]]></commonFeedback>
+      <answers>
+        <essayAnswer>
+          <name><![CDATA[ans1]]></name>
+          <weight>100</weight>
+          <answerProperties />
+          <fieldHeight>5</fieldHeight>
+          <fieldWidth>60</fieldWidth>
+          <sampleAnswer></sampleAnswer>
+        </essayAnswer>
+      </answers>
+    </worksheet>
+  </question>
+</questionSet>
+

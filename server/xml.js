@@ -66,24 +66,26 @@ async function MyFunction(theZipFile) {
   var zipEntries = zip.getEntries();
   console.log("Parsing Zip File");
   zip.extractAllTo(/*target path*/"./Temp/", /*overwrite*/true);
+  var workBook1 = XLSX.readFile('ExcelTemplate.xlsx');
+  await XLSX.writeFileSync(workBook1, './Output/Extracted.xlsx');
   // zipEntries.forEach(async function(zipEntry) {
   for await (var zipEntry of zipEntries) {
     await sleep(2000);
-    // console.log(zipEntry.isDirectory); // outputs zip entries information
+    console.log(zipEntry.entryName); // outputs zip entries information
     if (zipEntry.entryName.split('.').pop() == "xlsx") {
       var pmWorkbook = XLSX.readFile('./Temp/'+zipEntry.entryName);
       var first_sheet_name = pmWorkbook.SheetNames[0];
       var pmWorksheet = pmWorkbook.Sheets[first_sheet_name];
-      var workBook1 = XLSX.readFile('ExcelTemplate.xlsx');
-      XLSX.utils.book_append_sheet(workBook1, pmWorksheet, first_sheet_name);
+      var workBook2 = XLSX.readFile('./Output/Extracted.xlsx');
+      XLSX.utils.book_append_sheet(workBook2, pmWorksheet, first_sheet_name);
       var sec_sheet_name = pmWorkbook.SheetNames[1];
       var pmWorksheet2 = pmWorkbook.Sheets[sec_sheet_name];
-      await XLSX.writeFileSync(workBook1, './Output/Extracted.xlsx');
-      var workBook1 = XLSX.readFile('./Output/Extracted.xlsx');
-      XLSX.utils.book_append_sheet(workBook1, pmWorksheet2, sec_sheet_name);
+      await XLSX.writeFileSync(workBook2, './Output/Extracted.xlsx');
+      var workBook2 = XLSX.readFile('./Output/Extracted.xlsx');
+      XLSX.utils.book_append_sheet(workBook2, pmWorksheet2, sec_sheet_name);
       let pmData = JSON.stringify(XLSX.utils.sheet_to_json(pmWorksheet), null, 2);
       fs.writeFileSync('./Output/PM.json', pmData);
-      await XLSX.writeFileSync(workBook1, './Output/Extracted.xlsx');
+      await XLSX.writeFileSync(workBook2, './Output/Extracted.xlsx');
     }
     if (zipEntry.entryName.split('.').pop() == "xml") {
       await MyXmlFunction('./Temp/'+zipEntry.entryName, function (a) {
@@ -106,8 +108,9 @@ async function MyFunction(theZipFile) {
 }
 
 async function MyXmlFunction(theFile, callback) {
-
+  console.log('Extracted read Start');
   var workBookTemp = XLSX.readFile('./Output/Extracted.xlsx');
+  console.log('Extracted read End');
   var ws = workBookTemp.Sheets['Extracted Data'];
   // console.log(XLSX.utils.sheet_to_json(ws));
 
