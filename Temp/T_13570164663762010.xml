@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860061</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-01 Income-related items are excluded from gross...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>13570164578919965</catid>
+        <title><![CDATA[Learning Objective: 04-01 Describe the formula for calculating an individual taxpayer's taxes due or refund.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13488939784631911</catid>
+        <title><![CDATA[Topic: The Individual Income Tax Formula]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[Income-related items are excluded from gross income unless specifically included by a provision in the tax code.]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860059</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-02 For 2019 it is not important...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>13570164578919965</catid>
+        <title><![CDATA[Learning Objective: 04-01 Describe the formula for calculating an individual taxpayer's taxes due or refund.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13488939784631911</catid>
+        <title><![CDATA[Topic: The Individual Income Tax Formula]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="attached_media" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[<p>It is not important to determine who is a taxpayer&#8217;s dependent because&nbsp;taxpayers are not allowed to claim a deduction for dependents.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860053</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-03 In prior years, John was single...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164495641500</catid>
+        <title><![CDATA[Learning Objective: 04-02 Explain the requirements for determining who qualifies as a taxpayer's dependent.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164497266819</catid>
+        <title><![CDATA[Topic: Dependents of the Taxpayer]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[In prior years, John was single and he was a qualifying child of his parents. This year John, age 23 and a full-time student, got married. John and his wife file a joint return. If they were to file separately, John would report a $0 tax liability. John&#8217;s wife would report a $200 tax liability. John&#8217;s parents <i>cannot</i> claim him as a dependent this year.]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860058</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-04 A temporary absence from the taxpayer&#8217;s...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164495641500</catid>
+        <title><![CDATA[Learning Objective: 04-02 Explain the requirements for determining who qualifies as a taxpayer's dependent.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164497266819</catid>
+        <title><![CDATA[Topic: Dependents of the Taxpayer]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[A temporary absence from the taxpayer&#8217;s home for full-time schoolwork by the child may cause the child to fail the qualifying child residence test.]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860060</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-05 For purposes of determining filing status,...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[For purposes of determining filing status, a taxpayer&#8217;s marital status is determined on the last day of the tax year in question.]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860055</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[TF Qu. 04-06 If spouses are filing separate returns,...]]></title>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040823988</catid>
+        <title><![CDATA[Est Time: 35 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="boolean" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="palette" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <trueFalse>
+      <stem><![CDATA[If spouses are filing separate returns and one spouse itemizes deductions, the other spouse must also itemize deductions even when the second spouse&#8217;s itemized deductions are less than the standard deduction.]]></stem>
+      <commonFeedback></commonFeedback>
+      <trueInfo>
+        <credit>1</credit>
+        <feedback></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>0</credit>
+        <feedback></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860056</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-07 Trudy and Ben file a joint...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="On joint returns, both spouses are jointly and severally liable for the entire tax liability." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Trudy and Ben file a joint return. Trudy&#8217;s reported income creates $200 of income tax liability and Ben&#8217;s reported income creates $180 of income tax liability. In addition to the reported income, Trudy has unreported income on which she owes $50 of income tax. How much of the $430 potential tax liability is Ben liable for?]]></stem>
+      <commonFeedback><![CDATA[On joint returns, both spouses are jointly and severally liable for the entire tax liability.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[$50]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$180]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$380]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$430]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860066</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-08 James received $25,000 of compensation from...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164578919965</catid>
+        <title><![CDATA[Learning Objective: 04-01 Describe the formula for calculating an individual taxpayer's taxes due or refund.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13488939784631911</catid>
+        <title><![CDATA[Topic: The Individual Income Tax Formula]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="$25,000 compensation. The interest income is excluded from gross income because it is interest from a municipal (tax exempt) bond." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[James received $25,000 of compensation from his employer and he received $1,900 of interest from a municipal bond. What is the amount of James&#8217;s gross income?]]></stem>
+      <commonFeedback><![CDATA[$25,000 compensation. The interest income is excluded from gross income because it is interest from a municipal (tax exempt) bond.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[$0]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$1,900]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$25,000]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[$26,900]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860054</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-09 Which of the following is a...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164578919965</catid>
+        <title><![CDATA[Learning Objective: 04-01 Describe the formula for calculating an individual taxpayer's taxes due or refund.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13488939784631911</catid>
+        <title><![CDATA[Topic: The Individual Income Tax Formula]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="Home mortgage interest expense." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Which of the following is a from AGI deduction?]]></stem>
+      <commonFeedback><![CDATA[Home mortgage interest expense.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Contributions to qualified retirement accounts.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Rental and royalty expenses.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Business expenses for a self-employed taxpayer.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Home mortgage interest expense.</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860065</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-10 Which of the following is not...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164578919965</catid>
+        <title><![CDATA[Learning Objective: 04-01 Describe the formula for calculating an individual taxpayer's taxes due or refund.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13488939784631911</catid>
+        <title><![CDATA[Topic: The Individual Income Tax Formula]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="The qualified business income deduction is a from AGI deduction but it is not an itemized deduction." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="lock as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Which of the following is not an itemized deduction?]]></stem>
+      <commonFeedback><![CDATA[The qualified business income deduction is a from AGI deduction but it is not an itemized deduction.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Deduction for qualified business income.</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Medical expenses.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>State income taxes.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Charitable contributions.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>None of the choices are correct.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860064</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-11 Sarah is the Colton family&#8217;s 23-year-old...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164495641500</catid>
+        <title><![CDATA[Learning Objective: 04-02 Explain the requirements for determining who qualifies as a taxpayer's dependent.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164135571765</catid>
+        <title><![CDATA[AACSB: Analytical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164497266819</catid>
+        <title><![CDATA[Topic: Dependents of the Taxpayer]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820110</catid>
+        <title><![CDATA[Est Time: 25 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="Because Sarah is a full-time student and under 24 she passes the relationship test of a qualifying child. Her time spent away from school is counted at time at home for the residence test. Also, Sarah did not provide more than half of her own support. There is no gross income test for qualifying children." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Sarah is the Colton family&#8217;s 23-year-old daughter. She is a full-time student at an out-of-state university (for 8 months of the year) but plans to return home when the school year ends. During the year, Sarah earned $6,200 of income working part-time. Her support totaled $20,000 for the year. Of this amount, Sarah paid $7,000 with her own funds, her parents paid $12,000, and Sarah&#8217;s grandparents paid $1,000. Which of the following statements most accurately describes whether Sarah&#8217;s parents can claim a dependency exemption for her?]]></stem>
+      <commonFeedback><![CDATA[Because Sarah is a full-time student and under 24 she passes the relationship test of a qualifying child. Her time spent away from school is counted at time at home for the residence test. Also, Sarah did not provide more than half of her own support. There is no gross income test for qualifying children.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[Yes, Sarah is a qualifying child of her parents.]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[No, Sarah fails the support test for both qualifying children and qualifying relatives.]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[No, Sarah does not pass the gross income test.]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Yes, Sarah is a qualifying relative of her parents.]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860057</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-12 Filing status determines all except which...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040776078</catid>
+        <title><![CDATA[Blooms: Understand]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040825672</catid>
+        <title><![CDATA[Difficulty: 3 Hard]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040820109</catid>
+        <title><![CDATA[Est Time: 20 min.]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="The standard amount of the personal and dependency exemption does not vary by filing status." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Filing status determines all except which of the following?]]></stem>
+      <commonFeedback><![CDATA[The standard amount of the personal and dependency exemption does not vary by filing status.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>The AGI threshold for reductions in certain tax benefits.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>The amount of income used for the qualifying relative gross income test.</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>The appropriate tax rate schedule or tax table.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>The applicable standard deduction amount.</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860052</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-13 In May of year 1, David...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;Because she has not lived with David for the last six months of the year, she is still &lt;i&gt;legally&lt;/i&gt; married as of the end of the year, she provided more than half the costs of maintaining a household for her dependent child, and she filed separately from her husband, she can file using the head of household status under the abandoned spouse provision.&lt;/p&gt;" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[In May of year 1, David left his wife Juliette. While the couple was apart, they were not legally divorced. Juliette found herself having to financially provide for the couple&#8217;s only child (6 years of age) and to pay all the costs of maintaining the household. When Juliette filed her tax return for year 1, she filed a return separate from David. What is Juliette&#8217;s most favorable filing status for year 1?]]></stem>
+      <commonFeedback><![CDATA[<p>Because she has not lived with David for the last six months of the year, she is still <i>legally</i> married as of the end of the year, she provided more than half the costs of maintaining a household for her dependent child, and she filed separately from her husband, she can file using the head of household status under the abandoned spouse provision.</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[Head of household]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Single]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Married filing separately]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Qualifying widow]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860063</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-14 In year 1, Danny&#8217;s wife died....]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040799424</catid>
+        <title><![CDATA[Est Time: 10 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="Surviving spouse treatment is only available for the following two years if the taxpayer maintains a household for a dependent." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[In year 1, Danny&#8217;s wife died. Danny has no dependents. As of the end of year 2, Danny had not remarried. Which is the most advantageous filing status available to Danny in year 2?]]></stem>
+      <commonFeedback><![CDATA[Surviving spouse treatment is only available for the following two years if the taxpayer maintains a household for a dependent.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[Married filing joint]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Surviving spouse]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Married filing separate]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Single]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Head of household]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164663860062</ezid>
+    <version>1579175861131</version>
+    <title><![CDATA[MC Qu. 04-15 Caroline and her husband Chris got...]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040707526</catid>
+        <title><![CDATA[AICPA: BB Critical Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040842667</catid>
+        <title><![CDATA[Difficulty: 2 Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040824247</catid>
+        <title><![CDATA[Learning Objective: 04-03 Determine a taxpayer's filing status.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040747176</catid>
+        <title><![CDATA[Blooms: Analyze]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040829838</catid>
+        <title><![CDATA[Est Time: 15 min.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728030</catid>
+        <title><![CDATA[Topic: Filing Status]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="Hans does not qualify as Caroline&amp;#8217;s dependent due to his age and his income so Caroline must file Single for the year." />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="mpCustomTitle" type="string" value="" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[Caroline and her husband Chris got divorced in May of this year. During the year, Caroline provided all the support for herself and her 23-year-old child Hans (not a full-time student) who lived in the same home as Caroline for the entire year. Hans earned $29,000 this year. What is the Caroline&#8217;s most favorable filing status for the year?]]></stem>
+      <commonFeedback><![CDATA[Hans does not qualify as Caroline&#8217;s dependent due to his age and his income so Caroline must file Single for the year.]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[Head of household]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Married filing separately]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Surviving spouse]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[Single]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+</questionSet>
+
