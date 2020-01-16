@@ -141,7 +141,7 @@ async function MyXmlFunction(theFile, callback) {
           tags['title'] = value.title.toString();
           tags['EA'] = ' ';
           var prop = value.questionProperties[0];
-          // console.log(value.questionProperties[0])
+          console.log(tags['title'])
           for (individualProperty of prop.property) {
             if (individualProperty['$'].name === 'customType') {
               if (individualProperty['$'].value != '') {

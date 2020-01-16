@@ -111,7 +111,6 @@ async function MyCompare(theExcelFile) {
   for (let Que of extJson) {
     Que.Q = Que.Q.replace(/\[(.*)\]/g, "");
     var qNo = Que.Q.match(/(\d{1,2}-\d{1,3})/);
-    // console.log('Test',qNo);
     if (qNo !== null) {
       qNo[0] = qNo[0].replace(/\b0+/g, "");
     }
@@ -119,7 +118,12 @@ async function MyCompare(theExcelFile) {
     for (let pmQ of pmJson) {
       var pmQNo = pmQ.Q.match(/(\d{1,2}-\d{1,3})/g);
       if (qNo !== null) {
+       pmQNo[0] = pmQNo[0].replace(/\b0+/g, "");
+      }
+      if (qNo !== null) {
         if (qNo[0] === pmQNo[0]) {
+        // console.log('Test',qNo[0],pmQNo);
+
         compareWS.cell(i, 1)
           .string(`Extracted Q Title:${Que.Q}\r\nProblem Map Q Title:${pmQ.Q}`)
           .style(style);
@@ -351,9 +355,10 @@ function BloomsCheck(extBloom, pmBloom) {
 function LoDesCheck(extLoD, pmLoD) {
   var a = extLoD;
   var b = pmLoD;
+  // console.log(a,b)
   // console.log(a);
   var result = {};
-  result['extract'] = a;
+  result['extract'] = '';
   result['PM'] = '';
   result['Result'] = 0.0;
   if(extLoD.includes(';')) {
@@ -364,9 +369,16 @@ function LoDesCheck(extLoD, pmLoD) {
         c = ext
         d = lod['LODescription']
         // console.log('mul', ext)
-        if (c === d) {
-          var val = MatchArray(ext, lod['LODescription'].replace(/\s{2,}/g, ' '))
-          // console.log(val, c, d)
+        
+        var e = c.match(/(\d{1,2}-\d{1,3})/);
+        var f = d.match(/(\d{1,2}-\d{1,3})/g);
+        if (e[0].replace(/\b0+/g, "") === f[0].replace(/\b0+/g, "")) {
+          // console.log('Test', ext, lod['LODescription'])
+          var g = ext.replace(/(\d{1,2}-\d{1,3})(.*)/g, "$2")
+          var h = lod['LODescription'].replace(/\s{2,}/g, ' ')
+          h = h.replace(/(.*)(\d{1,2}-\d{1,3})(.*)/g, "$3")
+          // console.log('Test', g, h)
+          var val = MatchArray(g.trim(), h.trim())
           if (result['extract'] !== '') {
             result['extract'] += ', ';
           }
@@ -377,8 +389,8 @@ function LoDesCheck(extLoD, pmLoD) {
           // if (result['Result'] !== '') {
           //   result['Result'] += ', ';
           // }
-          // result['extract'] += val['extract'];
-          // result['PM'] += val['PM'];
+          result['extract'] += val['extract'];
+          result['PM'] += val['PM'];
           result['Result'] = result['Result'] + val['Result'];
         }
       }
@@ -395,9 +407,18 @@ function LoDesCheck(extLoD, pmLoD) {
     for(var lod of pmLoD) {
       // console.log(c)
       // console.log("Sin", extLoD)
-
-      if (extLoD.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4') === lod['LODescription'].replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4')) {
-        result = MatchArray(extLoD, lod['LODescription'].replace(/\s{2,}/g, ' '))
+      var k = extLoD.match(/(\d{1,2}-\d{1,3})/);
+      var l = lod['LODescription'].match(/(\d{1,2}-\d{1,3})/g);
+      // console.log('Test', k, l)
+      // if (extLoD.replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4') === lod['LODescription'].replace(/(.*)(\d{2,3})(-)(\d{2,3})(.*)/g, '$2$3$4')) {
+      if (k[0].replace(/\b0+/g, "") === l[0].replace(/\b0+/g, "")) {
+        var m = extLoD.replace(/(\d{1,2}-\d{1,3})(.*)/g, "$2")
+        var n = lod['LODescription'].replace(/\s{2,}/g, ' ')
+        n = n.replace(/(.*)(\d{1,2}-\d{1,3})(.*)/g, "$3")
+        console.log('Test', m, n)
+        // var val = MatchArray(m, n)
+        // result = MatchArray(extLoD, lod['LODescription'].replace(/\s{2,}/g, ' '))
+        result = MatchArray(m.trim(), n.trim())
       }
       // var temp = MatchArray(a, b)
       // if(temp['Result'] > 0.95 ) {
