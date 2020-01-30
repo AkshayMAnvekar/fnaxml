@@ -94,7 +94,7 @@ async function MyFunction(theZipFile) {
     }
 
   }
-  await sleep(2000);
+  await sleep(4000);
   console.log('Compare Start');
   await MyCompare('./Output/Extracted.xlsx');
   console.log('Compare End');
@@ -164,7 +164,7 @@ async function MyXmlFunction(theFile, callback) {
               for (indAnsProperty of externalAns[0].answerProperties[0].property) {
                 if (indAnsProperty['$'].name === 'customType') {
                   if (indAnsProperty['$'].value != '') {
-                    console.log(value.title.toString(),indAnsProperty['$'].value);
+                    // console.log(value.title.toString(),indAnsProperty['$'].value);
                     tags['qtype'] = indAnsProperty['$'].value
                     // console.log('test',value.title,indAnsProperty['$'].value)
                   }
@@ -244,7 +244,7 @@ async function MyXmlFunction(theFile, callback) {
               }
             });
           });
-
+          // console.log(tags)
           var rowVal = [
             [
               `${tags.title}`,

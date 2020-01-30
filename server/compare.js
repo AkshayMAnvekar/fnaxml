@@ -106,7 +106,7 @@ async function MyCompare(theExcelFile) {
   var pmWS2 = cWorkBook.Sheets['Sheet2'];
   var pmJson = XLSX.utils.sheet_to_json(pmWS);
   var pmJson2 = XLSX.utils.sheet_to_json(pmWS2);
-  // console.log(pmJson2);
+  console.log(pmJson2);
   var i = 2;
   for (let Que of extJson) {
     Que.Q = Que.Q.replace(/\[(.*)\]/g, "");
@@ -122,11 +122,17 @@ async function MyCompare(theExcelFile) {
       }
       if (qNo !== null) {
         if (qNo[0] === pmQNo[0]) {
-        // console.log('Test',qNo[0],pmQNo);
+        console.log('Test',qNo[0],pmQNo);
 
         compareWS.cell(i, 1)
           .string(`Extracted Q Title:${Que.Q}\r\nProblem Map Q Title:${pmQ.Q}`)
           .style(style);
+          if (typeof Que.LO === 'undefined' || !Que.LO) {
+            Que.LO = '99-99'
+          }
+          if (typeof pmQ.LO === 'undefined' || !pmQ.LO) {
+            pmQ.LO = '99-99'
+          }
 
         if (typeof Que.LO !== 'undefined' && typeof pmQ.LO !== 'undefined') {
           var LORes = LoCheck(Que.LO, pmQ.LO)
@@ -204,7 +210,9 @@ async function MyCompare(theExcelFile) {
             .string(`Extracted Data: ${GraRes['extract']}\r\nProblem Map Data: ${GraRes['PM']}\r\nMatch: ${GraRes['Result']}`)
             .style(((GraRes['Result'] === 1) ? style : ((GraRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
         }
-
+        if (typeof Que.LODescription === 'undefined' || !Que.LODescription) {
+          Que.LODescription = '99-99'
+        }
         if (typeof Que.LODescription !== 'undefined' && typeof pmJson2 !== 'undefined') {
           var LoDesRes = LoDesCheck(Que.LODescription, pmJson2)
           compareWS.cell(i, 13)
@@ -246,7 +254,7 @@ function MatchArray(a, b) {
   for (var i = 0; i < x.length; i++) {
     x[i] = x[i].trim();
   }
-  for (i = 0; i < x.length; i++) {
+  for (i = 0; i < y.length; i++) {
     y[i] = y[i].trim();
   }
   x = x.sort();
@@ -269,6 +277,7 @@ function LoCheck(extLO, pmLO) {
 function TopicCheck(extTop, pmTop) {
   var a = extTop;
   var b = pmTop;
+  console.log(a,b)
   return MatchArray(a, b)
 }
 
@@ -415,7 +424,7 @@ function LoDesCheck(extLoD, pmLoD) {
         var m = extLoD.replace(/(\d{1,2}-\d{1,3})(.*)/g, "$2")
         var n = lod['LODescription'].replace(/\s{2,}/g, ' ')
         n = n.replace(/(.*)(\d{1,2}-\d{1,3})(.*)/g, "$3")
-        console.log('Test', m, n)
+        // console.log('Test', m, n)
         // var val = MatchArray(m, n)
         // result = MatchArray(extLoD, lod['LODescription'].replace(/\s{2,}/g, ' '))
         result = MatchArray(m.trim(), n.trim())
@@ -451,16 +460,18 @@ function TimeCheck(extTime, pmTime) {
   var result = {};
   result['extract'] = extTime
   result['PM'] = pmTime
-  if ((a.length > 1) && (b.length > 1)) {
-    if ((a[a.length - 1] === b[b.length - 1]) && (a[0] === b[0])) {
-      result['Result'] = 1;
+  if ((a != null) && (b != null)) {
+    if ((a.length > 1) && (b.length > 1)) {
+      if ((a[a.length - 1] === b[b.length - 1]) && (a[0] === b[0])) {
+        result['Result'] = 1;
+      }
+      else {
+        result['Result'] = 0;
+      }
     }
     else {
-      result['Result'] = 0;
+      result['Result'] = (parseInt(a[a.length - 1]) === parseInt(b[b.length - 1])) ? 1 : 0;
     }
-  }
-  else {
-    result['Result'] = (parseInt(a[a.length - 1]) === parseInt(b[b.length - 1])) ? 1 : 0;
   }
   // console.log('time',result)
   return result;

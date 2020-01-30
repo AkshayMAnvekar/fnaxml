@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873740</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-1 Benford's Law (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373382</catid>
+        <title><![CDATA[Topic: Benford's law]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>According to Benford&#8217;s law, what is the expectation for the percentage of times that the first digit of a number is a 9?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>5.12%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>4.58%</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>5.80%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>30.10%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873741</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-2 Example of cash reconciling (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328576</catid>
+        <title><![CDATA[Topic: Cash reconciling]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>What is an example of a cash reconciling item for an item recorded in the general ledger but not yet recorded in the bank statement?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Bank service fee</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Interest earned on notes held by the bank</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Outstanding checks</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>NSF checks</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873738</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-3 Cash reconciling item (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328576</catid>
+        <title><![CDATA[Topic: Cash reconciling]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Which cash reconciling item could potentially affect either the bank statement or the general ledger?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Error</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Interest earned on notes held by the bank</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Outstanding checks</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>NSF checks</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873739</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-4 Gaps in check numbers (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328639</catid>
+        <title><![CDATA[Topic: Sequence-check]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Which of the following can potentially find gaps in the check numbers written?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Fuzzy matching</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Test of duplicates</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Benford&#8217;s law</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Sequence check</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873744</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-5 Drill-down, detailed analytics (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377216</catid>
+        <title><![CDATA[Topic: Drill-down analysis]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>The 2011 movie <em>Moneyball</em> is an example of drill-down, detailed analytics applied to the sport of _______.</p>
+]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>football</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>soccer</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>baseball</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>basketball</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873750</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-6 Appropriate test to compare one population to another (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040718574</catid>
+        <title><![CDATA[Topic: Hypothesis testing]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328774</catid>
+        <title><![CDATA[Topic: Two-sample test]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>The appropriate test to compare one sample to another sample to see if one is greater than another in some way is called a(n) _______.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>regression</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>two-sample t-test of a difference in means</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>one-sample t-test of a difference in means</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>chi-squared test of a difference in means</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873746</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-7 Appropriate test to see if independent variables are related to a dependent variable (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040718574</catid>
+        <title><![CDATA[Topic: Hypothesis testing]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377575</catid>
+        <title><![CDATA[Topic: Regression]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>The appropriate test to see if independent variables are related to a dependent variable is called a(n) _______.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>regression</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>two-sample t-test of a difference in means</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>one-sample t-test of a difference in means</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>chi-squared test of a difference in means</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873742</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-8 _______ is used to help (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328783</catid>
+        <title><![CDATA[Topic: Fuzzy matching]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>_______ is used to help find vendors that might have a similar address as an employee.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Duplicate testing</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Sequence check</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Benford&#8217;s law</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Fuzzy matching</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873743</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-9 Fuzzy matching (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661328783</catid>
+        <title><![CDATA[Topic: Fuzzy matching]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>In fuzzy matching, if an exact match (tolerance&nbsp;=&nbsp;100%) is required, what is the likely consequence for finding potential matches?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Too many potential matches</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Only exactly matches, no potential matches</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Good mix between exact and potential matches</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873752</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-10 Variance analysis (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164526946065</catid>
+        <title><![CDATA[Topic: Variance analysis]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Management accounting uses variance analysis to explain what and why something happened in the cost of producing products. It is done by comparing actual outcomes to expected, or standard, costs. What is the expectation when the price of raw materials unexpectedly increases?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Unfavorable price variance</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Favorable price variance</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Unfavorable quantity variance</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Favorable quantity variance</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873751</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-11 Obtaining data to compare (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040705319</catid>
+        <title><![CDATA[AACSB: Reflective Thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377216</catid>
+        <title><![CDATA[Topic: Drill-down analysis]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Where would the company likely get data comparing the salaries of female executives to the salaries of male executives?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Customer relationship management system</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Accounting system</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Human resources system</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Supply chain system</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873745</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-12 Benford's Law (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373382</catid>
+        <title><![CDATA[Topic: Benford's law]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377714</catid>
+        <title><![CDATA[Topic: Anomolies]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040735777</catid>
+        <title><![CDATA[AACSB: Analytical thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>According to Benford&#8217;s law, which one of these first digits have a higher probability of occurrence than the first digit 3?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>9</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>7</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>4</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>2</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873737</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-13 Benford's Law uses (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373382</catid>
+        <title><![CDATA[Topic: Benford's law]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377714</catid>
+        <title><![CDATA[Topic: Anomolies]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040735777</catid>
+        <title><![CDATA[AACSB: Analytical thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>When is Benford&#8217;s law analysis not useful?</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>Assets only recorded above a certain threshold</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Cash disbursements</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Earnings per share</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>Large datasets</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873749</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-14 Analytics of customers that owes (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377216</catid>
+        <title><![CDATA[Topic: Drill-down analysis]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040735777</catid>
+        <title><![CDATA[AACSB: Analytical thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Analysis of the customer that owes the most would be an example of the diagnostic analytics of _______.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>performing drill-down detailed analytics</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>determining relations/patterns/linkages between variables through statistical analysis</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>identifying anomalies/outliers</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873748</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-15 Evaluating the relationship between sales and adverstising (LO 7-3)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324794</catid>
+        <title><![CDATA[Learning Objective: 7-3 Using the Match() Function to Perform Bank Reconciliations]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040735777</catid>
+        <title><![CDATA[AACSB: Analytical thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661377726</catid>
+        <title><![CDATA[Topic: Significant relationships]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Evaluating the relationship between sales and advertising expense would be an example of the diagnostic analytics of _______.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>performing drill-down detailed analytics</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>determining relations/patterns/linkages between variables through statistical analysis</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>identifying anomalies/outliers</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164664873747</ezid>
+    <version>1579605415856</version>
+    <title><![CDATA[M 7-16 Computing and evaluting price and quantity variances (LO 7-2)]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164054528189</catid>
+        <title><![CDATA[Accessibility: Keyboard Navigation]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164590473901</catid>
+        <title><![CDATA[Accessibility: Screen Reader Compatible]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040752255</catid>
+        <title><![CDATA[Blooms: Remember]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661324793</catid>
+        <title><![CDATA[Learning Objective: 7-2 Days of the Week Journal Transactions]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164661373381</catid>
+        <title><![CDATA[Topic: Anomalies and Outliers]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040728971</catid>
+        <title><![CDATA[AICPA: BB Industry]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040736873</catid>
+        <title><![CDATA[AICPA: FN Measurement]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040830703</catid>
+        <title><![CDATA[Difficulty: 1 Easy]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164137045012</catid>
+        <title><![CDATA[Est Time: 01-05 mins.]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040735777</catid>
+        <title><![CDATA[AACSB: Analytical thinking]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040756075</catid>
+        <title><![CDATA[Gradable: automatic]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="hm_points" type="BigDecimal" value="10.00" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="as listed" />
+    </questionProperties>
+    <multipleChoice>
+      <stem><![CDATA[<p>Computing and evaluating price and quantity variances would be example of the diagnostic analytics of _______.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>performing drill-down detailed analytics</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>determining relations/patterns/linkages between variables through statistical analysis</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>identifying anomalies/outliers</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+</questionSet>
+
