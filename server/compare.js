@@ -122,11 +122,12 @@ async function MyCompare(theExcelFile) {
       }
       if (qNo !== null) {
         if (qNo[0] === pmQNo[0]) {
-        console.log('Test',qNo[0],pmQNo);
+          console.log('Test',qNo[0],pmQNo);
 
-        compareWS.cell(i, 1)
-          .string(`Extracted Q Title:${Que.Q}\r\nProblem Map Q Title:${pmQ.Q}`)
-          .style(style);
+          compareWS.cell(i, 1)
+            .string(`Extracted Q Title:${Que.Q}\r\nProblem Map Q Title:${pmQ.Q}`)
+            .style(style);
+
           if (typeof Que.LO === 'undefined' || !Que.LO) {
             Que.LO = '99-99'
           }
@@ -134,92 +135,162 @@ async function MyCompare(theExcelFile) {
             pmQ.LO = '99-99'
           }
 
-        if (typeof Que.LO !== 'undefined' && typeof pmQ.LO !== 'undefined') {
-          var LORes = LoCheck(Que.LO, pmQ.LO)
-          compareWS.cell(i, 2)
-            .string(`Extracted Data: ${LORes['extract']}\r\nProblem Map Data: ${LORes['PM']}\r\nMatch: ${LORes['Result']}`)
-            .style(((LORes['Result'] === 1) ? style : ((LORes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.LO !== 'undefined' && typeof pmQ.LO !== 'undefined') {
+            var LORes = LoCheck(Que.LO, pmQ.LO)
+            compareWS.cell(i, 2)
+              .string(`Extracted Data: ${LORes['extract']}\r\nProblem Map Data: ${LORes['PM']}\r\nMatch: ${LORes['Result']}`)
+              .style(((LORes['Result'] === 1) ? style : ((LORes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
 
-        if (typeof Que.Topic !== 'undefined' && typeof pmQ.Topic !== 'undefined') {
-          var TopicRes = TopicCheck(Que.Topic, pmQ.Topic)
-          compareWS.cell(i, 3)
-            .string(`Extracted Data: ${TopicRes['extract']}\r\nProblem Map Data: ${TopicRes['PM']}\r\nMatch: ${TopicRes['Result']}`)
-            .style(((TopicRes['Result'] === 1) ? style : ((TopicRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.Topic === 'undefined' || !Que.Topic) {
+            Que.Topic = ''
+          }
+          if (typeof pmQ.Topic === 'undefined' || !pmQ.Topic) {
+            pmQ.Topic = ''
+          }
 
-        if (typeof Que.AACSB !== 'undefined' && typeof pmQ.AACSB !== 'undefined') {
-          var AacsbRes = AacsbCheck(Que.AACSB, pmQ.AACSB)
-          compareWS.cell(i, 4)
-            .string(`Extracted Data: ${AacsbRes['extract']}\r\nProblem Map Data: ${AacsbRes['PM']}\r\nMatch: ${AacsbRes['Result']}`)
-            .style(((AacsbRes['Result'] === 1) ? style : ((AacsbRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.Topic !== 'undefined' && typeof pmQ.Topic !== 'undefined') {
+            var TopicRes = TopicCheck(Que.Topic, pmQ.Topic)
+            compareWS.cell(i, 3)
+              .string(`Extracted Data: ${TopicRes['extract']}\r\nProblem Map Data: ${TopicRes['PM']}\r\nMatch: ${TopicRes['Result']}`)
+              .style(((TopicRes['Result'] === 1) ? style : ((TopicRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+          
+          if (typeof Que.AACSB === 'undefined' || !Que.AACSB) {
+            Que.AACSB = ''
+          }
+          if (typeof pmQ.AACSB === 'undefined' || !pmQ.AACSB) {
+            pmQ.AACSB = ''
+          }
 
-        if (typeof Que.BB !== 'undefined' && typeof pmQ.BB !== 'undefined') {
-          var BBRes = BbCheck(Que.BB, pmQ.BB)
-          compareWS.cell(i, 5)
-            .string(`Extracted Data: ${BBRes['extract']}\r\nProblem Map Data: ${BBRes['PM']}\r\nMatch: ${BBRes['Result']}`)
-            .style(((BBRes['Result'] === 1) ? style : ((BBRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.AACSB !== 'undefined' && typeof pmQ.AACSB !== 'undefined') {
+            var AacsbRes = AacsbCheck(Que.AACSB, pmQ.AACSB)
+            compareWS.cell(i, 4)
+              .string(`Extracted Data: ${AacsbRes['extract']}\r\nProblem Map Data: ${AacsbRes['PM']}\r\nMatch: ${AacsbRes['Result']}`)
+              .style(((AacsbRes['Result'] === 1) ? style : ((AacsbRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
 
-        if (typeof Que.FN !== 'undefined' && typeof pmQ.FN !== 'undefined') {
-          var FNRes = FnCheck(Que.FN, pmQ.FN)
-          compareWS.cell(i, 6)
-            .string(`Extracted Data: ${FNRes['extract']}\r\nProblem Map Data: ${FNRes['PM']}\r\nMatch: ${FNRes['Result']}`)
-            .style(((FNRes['Result'] === 1) ? style : ((FNRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.BB === 'undefined' || !Que.BB) {
+            Que.BB = ''
+          }
+          if (typeof pmQ.BB === 'undefined' || !pmQ.BB) {
+            pmQ.BB = ''
+          }
 
-        if (typeof Que.Blooms !== 'undefined' && typeof pmQ.Blooms !== 'undefined') {
-          var BloomsRes = BloomsCheck(Que.Blooms, pmQ.Blooms)
-          compareWS.cell(i, 7)
-            .string(`Extracted Data: ${BloomsRes['extract']}\r\nProblem Map Data: ${BloomsRes['PM']}\r\nMatch: ${BloomsRes['Result']}`)
-            .style(((BloomsRes['Result'] === 1) ? style : ((BloomsRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.BB !== 'undefined' && typeof pmQ.BB !== 'undefined') {
+            var BBRes = BbCheck(Que.BB, pmQ.BB)
+            compareWS.cell(i, 5)
+              .string(`Extracted Data: ${BBRes['extract']}\r\nProblem Map Data: ${BBRes['PM']}\r\nMatch: ${BBRes['Result']}`)
+              .style(((BBRes['Result'] === 1) ? style : ((BBRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
 
-        if (typeof Que.Difficulty !== 'undefined' && typeof pmQ.Difficulty !== 'undefined') {
-          var DiffRes = DifficultyCheck(Que.Difficulty, pmQ.Difficulty)
-          compareWS.cell(i, 8)
-            .string(`Extracted Data: ${DiffRes['extract']}\r\nProblem Map Data: ${DiffRes['PM']}\r\nMatch: ${DiffRes['Result']}`)
-            .style(((DiffRes['Result'] === 1) ? style : ((DiffRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.FN === 'undefined' || !Que.FN) {
+            Que.FN = ''
+          }
+          if (typeof pmQ.FN === 'undefined' || !pmQ.FN) {
+            pmQ.FN = ''
+          }
 
-        if (typeof Que.Time !== 'undefined' && typeof pmQ.Time !== 'undefined') {
-          var TimeRes = TimeCheck(Que.Time, pmQ.Time)
-          compareWS.cell(i, 9)
-            .string(`Extracted Data: ${TimeRes['extract']}\r\nProblem Map Data: ${TimeRes['PM']}\r\nMatch: ${TimeRes['Result']}`)
-            .style(((TimeRes['Result'] === 1) ? style : ((TimeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.FN !== 'undefined' && typeof pmQ.FN !== 'undefined') {
+            var FNRes = FnCheck(Que.FN, pmQ.FN)
+            compareWS.cell(i, 6)
+              .string(`Extracted Data: ${FNRes['extract']}\r\nProblem Map Data: ${FNRes['PM']}\r\nMatch: ${FNRes['Result']}`)
+              .style(((FNRes['Result'] === 1) ? style : ((FNRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
 
-        if (typeof Que.Type !== 'undefined' && typeof pmQ.Type !== 'undefined') {
-          var TypeRes = TypeCheck(Que.Type, pmQ.Type)
-          compareWS.cell(i, 10)
-            .string(`Extracted Data: ${TypeRes['extract']}\r\nProblem Map Data: ${TypeRes['PM']}\r\nMatch: ${TypeRes['Result']}`)
-            .style(((TypeRes['Result'] === 1) ? style : ((TypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.Blooms === 'undefined' || !Que.Blooms) {
+            Que.Blooms = ''
+          }
+          if (typeof pmQ.Blooms === 'undefined' || !pmQ.Blooms) {
+            pmQ.Blooms = ''
+          }
 
-        if (typeof Que.Worksheet !== 'undefined' && typeof pmQ.Worksheet !== 'undefined') {
-          var qTypeRes = qTypeCheck(Que.Worksheet, pmQ.Worksheet)
-          compareWS.cell(i, 11)
-            .string(`Extracted Data: ${qTypeRes['extract']}\r\nProblem Map Data: ${qTypeRes['PM']}\r\nMatch: ${qTypeRes['Result']}`)
-            .style(((qTypeRes['Result'] === 1) ? style : ((qTypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
+          if (typeof Que.Blooms !== 'undefined' && typeof pmQ.Blooms !== 'undefined') {
+            var BloomsRes = BloomsCheck(Que.Blooms, pmQ.Blooms)
+            compareWS.cell(i, 7)
+              .string(`Extracted Data: ${BloomsRes['extract']}\r\nProblem Map Data: ${BloomsRes['PM']}\r\nMatch: ${BloomsRes['Result']}`)
+              .style(((BloomsRes['Result'] === 1) ? style : ((BloomsRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
 
-        if (typeof Que.Gradable !== 'undefined' && typeof pmQ.Worksheet !== 'undefined') {
-          var GraRes = GraCheck(Que.Gradable, pmQ.Worksheet)
-          compareWS.cell(i, 12)
-            .string(`Extracted Data: ${GraRes['extract']}\r\nProblem Map Data: ${GraRes['PM']}\r\nMatch: ${GraRes['Result']}`)
-            .style(((GraRes['Result'] === 1) ? style : ((GraRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          if (typeof Que.Difficulty === 'undefined' || !Que.Difficulty) {
+            Que.Difficulty = ''
+          }
+          if (typeof pmQ.Difficulty === 'undefined' || !pmQ.Difficulty) {
+            pmQ.Difficulty = ''
+          }
+
+          if (typeof Que.Difficulty !== 'undefined' && typeof pmQ.Difficulty !== 'undefined') {
+            var DiffRes = DifficultyCheck(Que.Difficulty, pmQ.Difficulty)
+            compareWS.cell(i, 8)
+              .string(`Extracted Data: ${DiffRes['extract']}\r\nProblem Map Data: ${DiffRes['PM']}\r\nMatch: ${DiffRes['Result']}`)
+              .style(((DiffRes['Result'] === 1) ? style : ((DiffRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+
+          if (typeof Que.Time === 'undefined' || !Que.Time) {
+            Que.Time = '99'
+          }
+          if (typeof pmQ.Time === 'undefined' || !pmQ.Time) {
+            pmQ.Time = '99'
+          }
+
+          if (typeof Que.Time !== 'undefined' && typeof pmQ.Time !== 'undefined') {
+            var TimeRes = TimeCheck(Que.Time, pmQ.Time)
+            compareWS.cell(i, 9)
+              .string(`Extracted Data: ${TimeRes['extract']}\r\nProblem Map Data: ${TimeRes['PM']}\r\nMatch: ${TimeRes['Result']}`)
+              .style(((TimeRes['Result'] === 1) ? style : ((TimeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+
+          if (typeof Que.Type === 'undefined' || !Que.Type) {
+            Que.Type = ''
+          }
+          if (typeof pmQ.Type === 'undefined' || !pmQ.Type) {
+            pmQ.Type = ''
+          }
+
+          if (typeof Que.Type !== 'undefined' && typeof pmQ.Type !== 'undefined') {
+            var TypeRes = TypeCheck(Que.Type, pmQ.Type)
+            compareWS.cell(i, 10)
+              .string(`Extracted Data: ${TypeRes['extract']}\r\nProblem Map Data: ${TypeRes['PM']}\r\nMatch: ${TypeRes['Result']}`)
+              .style(((TypeRes['Result'] === 1) ? style : ((TypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+
+          if (typeof Que.Worksheet === 'undefined' || !Que.Worksheet) {
+            Que.Worksheet = ''
+          }
+          if (typeof pmQ.Worksheet === 'undefined' || !pmQ.Worksheet) {
+            pmQ.Worksheet = ''
+          }
+
+          if (typeof Que.Worksheet !== 'undefined' && typeof pmQ.Worksheet !== 'undefined') {
+            var qTypeRes = qTypeCheck(Que.Worksheet, pmQ.Worksheet)
+            compareWS.cell(i, 11)
+              .string(`Extracted Data: ${qTypeRes['extract']}\r\nProblem Map Data: ${qTypeRes['PM']}\r\nMatch: ${qTypeRes['Result']}`)
+              .style(((qTypeRes['Result'] === 1) ? style : ((qTypeRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+
+          if (typeof Que.Gradable === 'undefined' || !Que.Gradable) {
+            Que.Gradable = ''
+          }
+          if (typeof pmQ.Worksheet === 'undefined' || !pmQ.Worksheet) {
+            pmQ.Worksheet = ''
+          }
+
+          if (typeof Que.Gradable !== 'undefined' && typeof pmQ.Worksheet !== 'undefined') {
+            var GraRes = GraCheck(Que.Gradable, pmQ.Worksheet)
+            compareWS.cell(i, 12)
+              .string(`Extracted Data: ${GraRes['extract']}\r\nProblem Map Data: ${GraRes['PM']}\r\nMatch: ${GraRes['Result']}`)
+              .style(((GraRes['Result'] === 1) ? style : ((GraRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
+          if (typeof Que.LODescription === 'undefined' || !Que.LODescription) {
+            Que.LODescription = '99-99'
+          }
+          if (typeof Que.LODescription !== 'undefined' && typeof pmJson2 !== 'undefined') {
+            var LoDesRes = LoDesCheck(Que.LODescription, pmJson2)
+            compareWS.cell(i, 13)
+              .string(`Extracted Data: ${LoDesRes['extract']}\r\nProblem Map Data: ${LoDesRes['PM']}\r\nMatch: ${LoDesRes['Result']}`)
+              .style(((LoDesRes['Result'] === 1) ? style : ((LoDesRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
+          }
         }
-        if (typeof Que.LODescription === 'undefined' || !Que.LODescription) {
-          Que.LODescription = '99-99'
-        }
-        if (typeof Que.LODescription !== 'undefined' && typeof pmJson2 !== 'undefined') {
-          var LoDesRes = LoDesCheck(Que.LODescription, pmJson2)
-          compareWS.cell(i, 13)
-            .string(`Extracted Data: ${LoDesRes['extract']}\r\nProblem Map Data: ${LoDesRes['PM']}\r\nMatch: ${LoDesRes['Result']}`)
-            .style(((LoDesRes['Result'] === 1) ? style : ((LoDesRes['Result'] >= 0.95) ? stylePartialMatch : styleNoMatch)));
-        }
-      }
       }
     }
     i++;
